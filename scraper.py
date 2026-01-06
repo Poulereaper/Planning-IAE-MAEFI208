@@ -10,12 +10,11 @@ BASE_URL = "https://planning.iae-paris.com/cours?formation=MAE+25.208+FIS&pagina
 PARIS_TZ = pytz.timezone('Europe/Paris')
 
 # --- BASE DE DONNÉES PÉDAGOGIQUE ---
-# Ajout des "exercices" extraits du PDF
 UE_DB = {
     "1": {
         "nom": "Environnement Économique",
         "prof": "Stéphane Saussier",
-        "keywords": ["ECONOMI", "CROISSANCE", "PIB", "CARTEL"],
+        "keywords": ["ECONOM", "CROISSANCE", "PIB", "CARTEL", "SALARIALE", "FRONTIERES"],
         "sessions": {
             1: "Amphi Ouverture - PIB & Croissance",
             2: "Relation salariale & incitation",
@@ -26,12 +25,12 @@ UE_DB = {
             7: "Environnement & nouveaux modèles",
             8: "Amphi de Fermeture"
         },
-        "exercices": {} # Pas de cas spécifiques listés par séance dans le PDF
+        "exercices": {}
     },
     "2": {
         "nom": "Droit des affaires",
         "prof": "Marianne Dournaux",
-        "keywords": ["DROIT", "JURIDIQUE", "CONTRAT", "RESPONSABILITE"],
+        "keywords": ["DROIT", "JURIDIQUE", "CONTRAT", "RESPONSABILIT", "SOCIETE", "CONCURRENCE"],
         "sessions": {
             1: "CM En ligne 1 - Intro matière",
             2: "Intro générale au droit",
@@ -53,7 +52,7 @@ UE_DB = {
     "3": {
         "nom": "Information comptable",
         "prof": "Stéphane Bellanger",
-        "keywords": ["COMPTABLE", "FINANCIER", "ACTIF", "BILAN"],
+        "keywords": ["COMPTA", "FINANCIER", "ACTIF", "BILAN", "TRESORERIE", "RESULTAT"],
         "sessions": {
             1: "Amphi 1 - Contexte normatif",
             2: "TD1 - Modèle comptable & états financiers",
@@ -82,7 +81,7 @@ UE_DB = {
     "4": {
         "nom": "Gestion des RH",
         "prof": "Florent Noël",
-        "keywords": ["RESSOURCES HUMAINES", "GRH", "SALARIE"],
+        "keywords": ["RESSOURCES HUMAINES", "GRH", "SALARIE", "EMPLOI", "COMPETENCE"],
         "sessions": {
             1: "Amphi Intro - Intro GRH",
             2: "Marges de manœuvre fonction RH",
@@ -101,7 +100,7 @@ UE_DB = {
     "5": {
         "nom": "Marketing",
         "prof": "J-L Brunstein & O. Sabri",
-        "keywords": ["MARKETING", "VENTE", "DISTRIBUTION", "PRIX"],
+        "keywords": ["MARKETING", "MKG", "VENTE", "DISTRIBUTION", "PRIX", "MARCHE", "CONSOMMATEUR", "PRODUIT", "COMMUNICATION"],
         "sessions": {
             1: "Amphi Intro - Marketing & défis",
             2: "Démarche mkg & comportement conso",
@@ -127,7 +126,7 @@ UE_DB = {
     "6": {
         "nom": "Projets, Innovation & Supply Chain",
         "prof": "Christine Triomphe",
-        "keywords": ["SUPPLY CHAIN", "SCM", "INNOVATION", "PROJET"],
+        "keywords": ["SUPPLY CHAIN", "SCM", "INNOVATION", "PROJET", "LOGISTIQUE", "AGILE", "DESIGN"],
         "sessions": {
             1: "Cours 1 - Intro SCM & Projets",
             2: "SCM : Choix stratégiques",
@@ -154,7 +153,7 @@ UE_DB = {
     "7": {
         "nom": "Finance d'entreprise",
         "prof": "Jérôme Caby",
-        "keywords": ["FINANCE", "RENTABILITE", "SOLVABILITE", "TRESORERIE"],
+        "keywords": ["FINANCE", "RENTABILITE", "SOLVABILITE", "SIG", "FLUX", "CONSOLID"],
         "sessions": {
             1: "Amphi 1 - Intro Analyse fi",
             2: "SIG & Rentabilité",
@@ -181,7 +180,7 @@ UE_DB = {
     "8": {
         "nom": "Management des SI",
         "prof": "P. Eynaud & J-L Richet",
-        "keywords": ["SYSTEME D'INFORMATION", "SI", "GOUVERNANCE", "URBANISATION"],
+        "keywords": ["SYSTEME D'INFORMATION", " SI ", "GOUVERNANCE", "URBANISATION", "ALIGNEMENT"],
         "sessions": {
             1: "Place des SI dans organisations",
             2: "Gouvernance",
@@ -206,7 +205,7 @@ UE_DB = {
     "9": {
         "nom": "Contrôle de gestion",
         "prof": "Olivier de La Villarmois",
-        "keywords": ["CONTROLE DE GESTION", "COUT", "BUDGET"],
+        "keywords": ["CONTROLE DE GESTION", "COUT", "BUDGET", "TABLEAUX DE BORD", "YIELD"],
         "sessions": {
             1: "Amphi 1 - Intro & Coûts",
             2: "Système calcul de coût",
@@ -235,7 +234,7 @@ UE_DB = {
     "10": {
         "nom": "Organisations & Comportements",
         "prof": "Nathalie Raulet-Croset",
-        "keywords": ["COMPORTEMENT", "ORGANISATION", "LEADERSHIP"],
+        "keywords": ["COMPORTEMENT", "ORGANISATION", "LEADERSHIP", "CONFLIT", "TELETRAVAIL", "HIERARCHIE"],
         "sessions": {
             1: "Amphi - Cadre analyse multi-niveaux",
             2: "Intro analyse comportements",
@@ -263,7 +262,7 @@ UE_DB = {
     "11": {
         "nom": "Stratégie de l'entreprise",
         "prof": "D. Chabaud & P. Garaudel",
-        "keywords": ["STRATEGIE", "CONCURRENTIEL", "BUSINESS MODEL"],
+        "keywords": ["STRATEGIE", "CONCURRENTIEL", "BUSINESS MODEL", "CORPORATE", "DIVERSIFICATION"],
         "sessions": {
             1: "Cours Introductif (Amphi)",
             2: "Cas d'examen précédent",
@@ -288,7 +287,7 @@ UE_DB = {
     "12": {
         "nom": "Management International",
         "prof": "Pierre-Yves Lagroue",
-        "keywords": ["INTERNATIONAL", "MONDE", "ETRANGER"],
+        "keywords": ["INTERNATIONAL", "MONDE", "ETRANGER", "INTERCULTUREL", "ETHIQUE"],
         "sessions": {
             1: "Facteurs de l'internationalisation",
             2: "Modes d'entrée (1/2)",
@@ -308,8 +307,12 @@ MOIS_FR = {
     'juillet': 7, 'août': 8, 'septembre': 9, 'octobre': 10, 'novembre': 11, 'décembre': 12
 }
 
+def clean_text(text):
+    """Nettoie le texte (espaces insécables, etc)"""
+    return text.replace('\xa0', ' ').strip()
+
 def parse_french_date(date_str):
-    parts = date_str.lower().split()
+    parts = clean_text(date_str).lower().split()
     try:
         day = int(parts[1])
         month = MOIS_FR[parts[2]]
@@ -319,13 +322,10 @@ def parse_french_date(date_str):
         return None
 
 def detect_ue_from_text(text):
-    """Essaie de deviner l'UE à partir du texte si le #UE est manquant"""
-    text_upper = text.upper()
+    text_upper = clean_text(text).upper()
     for ue_id, data in UE_DB.items():
-        # Vérification par nom exact
-        if data['nom'].upper() in text_upper:
+        if clean_text(data['nom']).upper() in text_upper:
             return ue_id
-        # Vérification par mots-clés
         for kw in data.get('keywords', []):
             if kw in text_upper:
                 return ue_id
@@ -335,13 +335,12 @@ def main():
     cal = Calendar()
     session = requests.Session()
     
-    # Mémoire des créneaux (ex: '18:15' -> '5')
     active_ue_on_slot = {} 
-    # Compteur de progression pour chaque UE
     ue_progress = {ue_id: 0 for ue_id in UE_DB.keys()}
 
-    print("Démarrage du scraping (Mode Robust + Exercices)...")
+    print("Démarrage du scraping (Mode 'Catch-All')...")
 
+    # On scanne large
     for page in range(1, 25):
         url = f"{BASE_URL}&page={page}"
         print(f"Traitement page {page}...")
@@ -361,7 +360,7 @@ def main():
                 if 'bg-slate-50' in classes:
                     date_div = row.find('div', class_='text-xl')
                     if date_div:
-                        current_date_tuple = parse_french_date(date_div.get_text(strip=True))
+                        current_date_tuple = parse_french_date(date_div.get_text())
                 
                 # --- LIGNE DE COURS ---
                 elif 'hover' in classes and current_date_tuple:
@@ -369,72 +368,74 @@ def main():
                     if len(cols) < 7: continue
                     
                     # 1. HORAIRES
-                    time_text = cols[0].get_text(separator=" ", strip=True)
+                    time_text = clean_text(cols[0].get_text(separator=" "))
                     times = re.findall(r'\d{2}:\d{2}', time_text)
                     if len(times) < 2: continue
                     
-                    start_hm = times[0].split(':') # 18:15
+                    start_hm = times[0].split(':')
                     end_hm = times[1].split(':')
                     slot_key = f"{start_hm[0]}:{start_hm[1]}"
 
-                    # 2. IDENTIFICATION DE L'UE
-                    raw_ue_text = cols[4].get_text(strip=True)
-                    subject_raw = cols[2].get_text(strip=True)
+                    # 2. INFO BRUTES
+                    raw_ue_text = clean_text(cols[4].get_text())
+                    subject_raw = clean_text(cols[2].get_text())
                     
                     ue_id = None
                     
-                    # A. Priorité absolue : Le tag #UE dans la colonne dédiée
+                    # A. Detection Prioritaire
                     match = re.search(r'#(\d+)', raw_ue_text)
                     if match:
                         ue_id = match.group(1)
-                        # Reset si c'est un amphi d'ouverture
-                        if "OUVERTURE" in subject_raw.upper() or "AMPHI 1" in subject_raw.upper() or "INTRO" in subject_raw.upper():
+                        if any(x in subject_raw.upper() for x in ["OUVERTURE", "AMPHI 1", "INTRO"]):
                              ue_progress[ue_id] = 0
                         active_ue_on_slot[slot_key] = ue_id
 
-                    # B. Détection par mots-clés dans le sujet (si pas de #)
-                    # C'est ce qui manquait pour le Marketing !
+                    # B. Detection Mots-clés
                     if not ue_id:
                         ue_id = detect_ue_from_text(subject_raw)
                         if ue_id:
                             active_ue_on_slot[slot_key] = ue_id
 
-                    # C. Dernier recours : Mémoire du créneau horaire
+                    # C. Mémoire
                     if not ue_id:
                         ue_id = active_ue_on_slot.get(slot_key)
 
-                    # Si toujours rien, on ignore
-                    if not ue_id: continue
+                    # 3. PRÉPARATION DE L'ÉVÉNEMENT
+                    # Si UE trouvée
+                    if ue_id:
+                        ue_progress[ue_id] += 1
+                        current_session_num = ue_progress[ue_id]
+                        ue_data = UE_DB.get(ue_id, {})
+                        max_sessions = len(ue_data.get("sessions", {}))
+                        
+                        # Session normale vs supplémentaire
+                        if current_session_num <= max_sessions:
+                            session_theme = ue_data.get("sessions", {}).get(current_session_num, subject_raw)
+                            session_exercice = ue_data.get("exercices", {}).get(current_session_num, "")
+                        else:
+                            session_theme = f"Séance Supplémentaire : {subject_raw}"
+                            session_exercice = ""
 
-                    # 3. GESTION PROGRESSION
-                    ue_progress[ue_id] += 1
-                    current_session_num = ue_progress[ue_id]
-                    
-                    ue_data = UE_DB.get(ue_id, {})
-                    max_sessions = len(ue_data.get("sessions", {}))
+                        prof_name = ue_data.get("prof", "")
+                        title = f"[UE {ue_id}] {ue_data.get('nom')}"
+                        desc_header = f"Progression: Séance {current_session_num} sur {max_sessions}"
 
-                    # 4. DONNÉES DU COURS
-                    # On ne supprime plus le cours s'il dépasse max_sessions, on le marque juste
-                    if current_session_num <= max_sessions:
-                        session_theme = ue_data.get("sessions", {}).get(current_session_num, subject_raw)
-                        session_exercice = ue_data.get("exercices", {}).get(current_session_num, "")
+                    # Si UE NON trouvée (Mode Catch-All)
                     else:
-                        session_theme = f"Séance Supplémentaire ou Décalée : {subject_raw}"
+                        title = f"[?] {subject_raw}"
+                        prof_name = "Non identifié"
+                        session_theme = "UE non reconnue par le script"
                         session_exercice = ""
+                        desc_header = "⚠️ Ce cours n'a pas été reconnu automatiquement."
 
-                    prof_name = ue_data.get("prof", "")
-                    title = f"[UE {ue_id}] {ue_data.get('nom', 'Matière Inconnue')}"
-                    
-                    # 5. SALLE & EXAMENS
+                    # 4. SALLE & EXAMENS
                     room_tag = cols[6].find('span', class_='badge')
-                    room = room_tag.get_text(strip=True) if room_tag else "Inconnu"
+                    room = clean_text(room_tag.get_text()) if room_tag else "Inconnu"
                     address = room
                     
-                    # Détection Examen (Mots clés ou salle)
                     is_exam = "EXAMEN" in subject_raw.upper() or "ARCUEIL" in room.upper()
-                    
                     if is_exam:
-                        title = f"📝 EXAMEN - {title}"
+                        title = f"📝 EXAMEN - {title.replace('[?]', '[EXAMEN]')}"
                         session_theme = "Examen Final"
                         if "ARCUEIL" in room.upper():
                             address = "Maison des Examens, 7 Rue Ernest Renan, 94110 Arcueil"
@@ -442,13 +443,13 @@ def main():
                     elif "LIGNE" in room.upper():
                         room = "🖥️ En ligne"
 
-                    # 6. CRÉATION EVENT
+                    # 5. CONSTRUCTION
                     y, m, d = current_date_tuple
                     dt_start = PARIS_TZ.localize(datetime(y, m, d, int(start_hm[0]), int(start_hm[1])))
                     dt_end = PARIS_TZ.localize(datetime(y, m, d, int(end_hm[0]), int(end_hm[1])))
 
                     e = Event()
-                    e.name = f"{title} ({current_session_num}/{max_sessions})"
+                    e.name = title
                     e.begin = dt_start
                     e.end = dt_end
                     e.location = address
@@ -456,25 +457,24 @@ def main():
                     desc = [
                         f"Thème: {session_theme}",
                     ]
-                    
                     if session_exercice:
                         desc.append(f"📚 À préparer: {session_exercice}")
-                        
+                    
                     desc.append(f"👨‍🏫 Intervenant: {prof_name}")
                     desc.append(f"📍 Salle: {room}")
-                    desc.append(f"Progression: Séance {current_session_num} sur {max_sessions}")
+                    desc.append(f"ℹ️ Titre brut: {subject_raw}")
+                    desc.append(desc_header)
                     
                     e.description = "\n".join(desc)
-                    
                     cal.events.add(e)
-                    print(f" + {title} ({dt_start})")
+                    print(f" + Ajouté : {title} ({dt_start})")
 
         except Exception as e:
             print(f"Erreur page {page}: {e}")
 
     with open('planning.ics', 'w', encoding='utf-8') as f:
         f.writelines(cal.serialize_iter())
-    print("Calendrier généré !")
+    print("Calendrier généré (inclus non-identifiés) !")
 
 if __name__ == "__main__":
     main()
