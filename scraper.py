@@ -9,12 +9,23 @@ import pytz
 BASE_URL = "https://planning.iae-paris.com/cours?formation=MAE+25.208+FIS&paginate=pages&view=list&filter=all&start_date=2025-09-01"
 PARIS_TZ = pytz.timezone('Europe/Paris')
 
+# --- LOGIQUE DE RELAIS (QUI REMPLACE QUI ?) ---
+# Quand une matière est terminée (toutes séances faites),
+# la suivante prend automatiquement sa place sur le même créneau horaire.
+UE_RELAY = {
+    "1": "6",  # Environnement Eco -> Projets & SC
+    "3": "7",  # Compta -> Finance
+    "7": "5",  # Finance -> Marketing
+    "6": "2",  # Projets & SC -> Droit
+    "2": "4",  # Droit -> RH (Hypothèse standard, ajustable)
+}
+
 # --- BASE DE DONNÉES PÉDAGOGIQUE ---
 UE_DB = {
     "1": {
         "nom": "Environnement Économique",
         "prof": "Stéphane Saussier",
-        "keywords": ["ECONOM", "CROISSANCE", "PIB", "CARTEL", "SALARIALE", "FRONTIERES"],
+        "keywords": ["ECONOMI", "CROISSANCE", "PIB", "CARTEL", "SALARIALE"],
         "sessions": {
             1: "Amphi Ouverture - PIB & Croissance",
             2: "Relation salariale & incitation",
@@ -100,7 +111,7 @@ UE_DB = {
     "5": {
         "nom": "Marketing",
         "prof": "J-L Brunstein & O. Sabri",
-        "keywords": ["MARKETING", "MKG", "VENTE", "DISTRIBUTION", "PRIX", "MARCHE", "CONSOMMATEUR", "PRODUIT", "COMMUNICATION"],
+        "keywords": ["MARKETING", "MKG", "VENTE", "DISTRIBUTION", "PRIX", "MARCHE", "CONSOMMATEUR"],
         "sessions": {
             1: "Amphi Intro - Marketing & défis",
             2: "Démarche mkg & comportement conso",
@@ -126,7 +137,7 @@ UE_DB = {
     "6": {
         "nom": "Projets, Innovation & Supply Chain",
         "prof": "Christine Triomphe",
-        "keywords": ["SUPPLY CHAIN", "SCM", "INNOVATION", "PROJET", "LOGISTIQUE", "AGILE", "DESIGN"],
+        "keywords": ["SUPPLY CHAIN", "SCM", "INNOVATION", "PROJET", "LOGISTIQUE", "AGILE"],
         "sessions": {
             1: "Cours 1 - Intro SCM & Projets",
             2: "SCM : Choix stratégiques",
@@ -180,7 +191,7 @@ UE_DB = {
     "8": {
         "nom": "Management des SI",
         "prof": "P. Eynaud & J-L Richet",
-        "keywords": ["SYSTEME D'INFORMATION", " SI ", "GOUVERNANCE", "URBANISATION", "ALIGNEMENT"],
+        "keywords": ["SYSTEME D'INFORMATION", " SI ", "GOUVERNANCE", "URBANISATION"],
         "sessions": {
             1: "Place des SI dans organisations",
             2: "Gouvernance",
@@ -205,7 +216,7 @@ UE_DB = {
     "9": {
         "nom": "Contrôle de gestion",
         "prof": "Olivier de La Villarmois",
-        "keywords": ["CONTROLE DE GESTION", "COUT", "BUDGET", "TABLEAUX DE BORD", "YIELD"],
+        "keywords": ["CONTROLE DE GESTION", "COUT", "BUDGET", "TABLEAUX DE BORD"],
         "sessions": {
             1: "Amphi 1 - Intro & Coûts",
             2: "Système calcul de coût",
@@ -234,7 +245,7 @@ UE_DB = {
     "10": {
         "nom": "Organisations & Comportements",
         "prof": "Nathalie Raulet-Croset",
-        "keywords": ["COMPORTEMENT", "ORGANISATION", "LEADERSHIP", "CONFLIT", "TELETRAVAIL", "HIERARCHIE"],
+        "keywords": ["COMPORTEMENT", "ORGANISATION", "LEADERSHIP", "CONFLIT"],
         "sessions": {
             1: "Amphi - Cadre analyse multi-niveaux",
             2: "Intro analyse comportements",
@@ -262,7 +273,7 @@ UE_DB = {
     "11": {
         "nom": "Stratégie de l'entreprise",
         "prof": "D. Chabaud & P. Garaudel",
-        "keywords": ["STRATEGIE", "CONCURRENTIEL", "BUSINESS MODEL", "CORPORATE", "DIVERSIFICATION"],
+        "keywords": ["STRATEGIE", "CONCURRENTIEL", "BUSINESS MODEL", "CORPORATE"],
         "sessions": {
             1: "Cours Introductif (Amphi)",
             2: "Cas d'examen précédent",
@@ -287,7 +298,7 @@ UE_DB = {
     "12": {
         "nom": "Management International",
         "prof": "Pierre-Yves Lagroue",
-        "keywords": ["INTERNATIONAL", "MONDE", "ETRANGER", "INTERCULTUREL", "ETHIQUE"],
+        "keywords": ["INTERNATIONAL", "MONDE", "ETRANGER", "INTERCULTUREL"],
         "sessions": {
             1: "Facteurs de l'internationalisation",
             2: "Modes d'entrée (1/2)",
@@ -308,7 +319,6 @@ MOIS_FR = {
 }
 
 def clean_text(text):
-    """Nettoie le texte (espaces insécables, etc)"""
     return text.replace('\xa0', ' ').strip()
 
 def parse_french_date(date_str):
@@ -335,12 +345,13 @@ def main():
     cal = Calendar()
     session = requests.Session()
     
+    # Mémoire des créneaux (ex: '18:15' -> '5')
     active_ue_on_slot = {} 
+    # Compteur de progression pour chaque UE
     ue_progress = {ue_id: 0 for ue_id in UE_DB.keys()}
 
-    print("Démarrage du scraping (Mode 'Catch-All')...")
+    print("Démarrage du scraping (Mode Relais & Arrêt Strict)...")
 
-    # On scanne large
     for page in range(1, 25):
         url = f"{BASE_URL}&page={page}"
         print(f"Traitement page {page}...")
@@ -367,7 +378,7 @@ def main():
                     cols = row.find_all('td')
                     if len(cols) < 7: continue
                     
-                    # 1. HORAIRES
+                    # 1. HORAIRES & SLOT
                     time_text = clean_text(cols[0].get_text(separator=" "))
                     times = re.findall(r'\d{2}:\d{2}', time_text)
                     if len(times) < 2: continue
@@ -376,66 +387,79 @@ def main():
                     end_hm = times[1].split(':')
                     slot_key = f"{start_hm[0]}:{start_hm[1]}"
 
-                    # 2. INFO BRUTES
+                    # 2. IDENTIFICATION (PRIORITÉ AU #)
                     raw_ue_text = clean_text(cols[4].get_text())
                     subject_raw = clean_text(cols[2].get_text())
                     
                     ue_id = None
                     
-                    # A. Detection Prioritaire
+                    # A. Tag explicite (#UE)
                     match = re.search(r'#(\d+)', raw_ue_text)
                     if match:
                         ue_id = match.group(1)
+                        # Reset si amphi d'ouverture
                         if any(x in subject_raw.upper() for x in ["OUVERTURE", "AMPHI 1", "INTRO"]):
                              ue_progress[ue_id] = 0
                         active_ue_on_slot[slot_key] = ue_id
 
-                    # B. Detection Mots-clés
+                    # B. Mots-clés (si pas de tag)
                     if not ue_id:
                         ue_id = detect_ue_from_text(subject_raw)
                         if ue_id:
                             active_ue_on_slot[slot_key] = ue_id
 
-                    # C. Mémoire
+                    # C. Mémoire & RELAIS
                     if not ue_id:
-                        ue_id = active_ue_on_slot.get(slot_key)
+                        mem_id = active_ue_on_slot.get(slot_key)
+                        if mem_id:
+                            # Est-ce que la matière en mémoire est finie ?
+                            max_sessions_mem = len(UE_DB[mem_id]["sessions"])
+                            if ue_progress[mem_id] >= max_sessions_mem:
+                                # OUI -> On cherche le RELAIS
+                                next_ue = UE_RELAY.get(mem_id)
+                                if next_ue:
+                                    print(f"   [Relais] {UE_DB[mem_id]['nom']} terminé -> Place à {UE_DB[next_ue]['nom']}")
+                                    ue_id = next_ue
+                                    active_ue_on_slot[slot_key] = ue_id # Mise à jour mémoire
+                                else:
+                                    # Pas de suite connue, on nettoie
+                                    del active_ue_on_slot[slot_key]
+                                    ue_id = None
+                            else:
+                                # NON -> On continue la même matière
+                                ue_id = mem_id
 
-                    # 3. PRÉPARATION DE L'ÉVÉNEMENT
-                    # Si UE trouvée
-                    if ue_id:
-                        ue_progress[ue_id] += 1
-                        current_session_num = ue_progress[ue_id]
-                        ue_data = UE_DB.get(ue_id, {})
-                        max_sessions = len(ue_data.get("sessions", {}))
-                        
-                        # Session normale vs supplémentaire
-                        if current_session_num <= max_sessions:
-                            session_theme = ue_data.get("sessions", {}).get(current_session_num, subject_raw)
-                            session_exercice = ue_data.get("exercices", {}).get(current_session_num, "")
-                        else:
-                            session_theme = f"Séance Supplémentaire : {subject_raw}"
-                            session_exercice = ""
+                    # Si toujours rien, on passe (Arrêt strict des fantômes)
+                    if not ue_id: 
+                        continue
 
-                        prof_name = ue_data.get("prof", "")
-                        title = f"[UE {ue_id}] {ue_data.get('nom')}"
-                        desc_header = f"Progression: Séance {current_session_num} sur {max_sessions}"
+                    # 3. VÉRIFICATION FINALE (ARRÊT STRICT)
+                    ue_data = UE_DB.get(ue_id, {})
+                    max_sessions = len(ue_data.get("sessions", {}))
+                    
+                    # Si on dépasse le nombre de cours, ON ARRÊTE TOUT POUR CETTE UE
+                    if ue_progress[ue_id] >= max_sessions:
+                        # On ne génère pas l'event et on peut éventuellement nettoyer la mémoire
+                        # pour forcer le relais au prochain tour si ce n'est pas déjà fait
+                        continue
 
-                    # Si UE NON trouvée (Mode Catch-All)
-                    else:
-                        title = f"[?] {subject_raw}"
-                        prof_name = "Non identifié"
-                        session_theme = "UE non reconnue par le script"
-                        session_exercice = ""
-                        desc_header = "⚠️ Ce cours n'a pas été reconnu automatiquement."
-
-                    # 4. SALLE & EXAMENS
+                    # 4. CRÉATION DE L'ÉVÉNEMENT
+                    ue_progress[ue_id] += 1
+                    current_session_num = ue_progress[ue_id]
+                    
+                    session_theme = ue_data.get("sessions", {}).get(current_session_num, subject_raw)
+                    session_exercice = ue_data.get("exercices", {}).get(current_session_num, "")
+                    prof_name = ue_data.get("prof", "")
+                    title = f"[UE {ue_id}] {ue_data.get('nom')}"
+                    
+                    # Détection Examen
                     room_tag = cols[6].find('span', class_='badge')
                     room = clean_text(room_tag.get_text()) if room_tag else "Inconnu"
                     address = room
                     
                     is_exam = "EXAMEN" in subject_raw.upper() or "ARCUEIL" in room.upper()
                     if is_exam:
-                        title = f"📝 EXAMEN - {title.replace('[?]', '[EXAMEN]')}"
+                        title = f"📝 EXAMEN - {title}"
                         session_theme = "Examen Final"
                         if "ARCUEIL" in room.upper():
                             address = "Maison des Examens, 7 Rue Ernest Renan, 94110 Arcueil"
@@ -443,7 +467,7 @@ def main():
                     elif "LIGNE" in room.upper():
                         room = "🖥️ En ligne"
 
-                    # 5. CONSTRUCTION
+                    # Construction ICS
                     y, m, d = current_date_tuple
                     dt_start = PARIS_TZ.localize(datetime(y, m, d, int(start_hm[0]), int(start_hm[1])))
                     dt_end = PARIS_TZ.localize(datetime(y, m, d, int(end_hm[0]), int(end_hm[1])))
@@ -454,27 +478,22 @@ def main():
                     e.end = dt_end
                     e.location = address
                     
-                    desc = [
-                        f"Thème: {session_theme}",
-                    ]
-                    if session_exercice:
-                        desc.append(f"📚 À préparer: {session_exercice}")
-                    
+                    desc = [f"Thème: {session_theme}"]
+                    if session_exercice: desc.append(f"📚 À préparer: {session_exercice}")
                     desc.append(f"👨‍🏫 Intervenant: {prof_name}")
                     desc.append(f"📍 Salle: {room}")
-                    desc.append(f"ℹ️ Titre brut: {subject_raw}")
-                    desc.append(desc_header)
+                    desc.append(f"Progression: Séance {current_session_num} sur {max_sessions}")
                     
                     e.description = "\n".join(desc)
                     cal.events.add(e)
-                    print(f" + Ajouté : {title} ({dt_start})")
+                    print(f" + Ajouté : {title} ({current_session_num}/{max_sessions})")
 
         except Exception as e:
             print(f"Erreur page {page}: {e}")
 
     with open('planning.ics', 'w', encoding='utf-8') as f:
         f.writelines(cal.serialize_iter())
-    print("Calendrier généré (inclus non-identifiés) !")
+    print("Calendrier généré !")
 
 if __name__ == "__main__":
     main()
