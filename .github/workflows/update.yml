@@ -2,7 +2,8 @@ name: Update Planning IAE
 
 on:
   schedule:
-    # 7h UTC (8h Paris Hiver) et 16h UTC (17h Paris Hiver)
+    # 7h UTC = 8h Hiver / 9h Eté
+    # 16h UTC = 17h Hiver / 18h Eté
     - cron: "0 7,16 * * *"
   workflow_dispatch:
 
@@ -34,5 +35,4 @@ jobs:
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           git add planning.ics
-          # Ne commit que si le fichier a changé
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Mise à jour du planning" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Mise à jour auto du planning" && git push)
