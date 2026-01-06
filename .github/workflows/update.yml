@@ -1,0 +1,38 @@
+name: Update Planning IAE
+
+on:
+  schedule:
+    # Lance le script toutes les 6 heures
+    - cron: "0 */6 * * *"
+  workflow_dispatch: # Permet de lancer manuellement si besoin
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Scraper
+        run: |
+          python scraper.py
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add planning.ics
+          # Ne commit que si le fichier a changé
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Mise à jour du planning" && git push)
