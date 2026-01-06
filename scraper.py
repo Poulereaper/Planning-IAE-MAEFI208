@@ -9,13 +9,13 @@ import pytz
 BASE_URL = "https://planning.iae-paris.com/cours?formation=MAE+25.208+FIS&paginate=pages&view=list&filter=all&start_date=2025-09-01"
 PARIS_TZ = pytz.timezone('Europe/Paris')
 
-# --- BASE DE DONNÉES PÉDAGOGIQUE (Extraite du PDF) ---
-# Format: "UE_ID": { "nom", "prof", "sessions": { 1: "Theme", 2: "Theme"... } }
-# Les clés de sessions sont séquentielles (1, 2, 3...) suivant l'ordre chronologique
+# --- BASE DE DONNÉES PÉDAGOGIQUE ---
+# Ajout des "exercices" extraits du PDF
 UE_DB = {
     "1": {
         "nom": "Environnement Économique",
         "prof": "Stéphane Saussier",
+        "keywords": ["ECONOMI", "CROISSANCE", "PIB", "CARTEL"],
         "sessions": {
             1: "Amphi Ouverture - PIB & Croissance",
             2: "Relation salariale & incitation",
@@ -25,11 +25,13 @@ UE_DB = {
             6: "Les cartels",
             7: "Environnement & nouveaux modèles",
             8: "Amphi de Fermeture"
-        }
+        },
+        "exercices": {} # Pas de cas spécifiques listés par séance dans le PDF
     },
     "2": {
         "nom": "Droit des affaires",
         "prof": "Marianne Dournaux",
+        "keywords": ["DROIT", "JURIDIQUE", "CONTRAT", "RESPONSABILITE"],
         "sessions": {
             1: "CM En ligne 1 - Intro matière",
             2: "Intro générale au droit",
@@ -45,11 +47,13 @@ UE_DB = {
             12: "Droit de la concurrence",
             13: "Droit du travail",
             14: "Entreprises en difficulté"
-        }
+        },
+        "exercices": {}
     },
     "3": {
         "nom": "Information comptable",
         "prof": "Stéphane Bellanger",
+        "keywords": ["COMPTABLE", "FINANCIER", "ACTIF", "BILAN"],
         "sessions": {
             1: "Amphi 1 - Contexte normatif",
             2: "TD1 - Modèle comptable & états financiers",
@@ -61,11 +65,24 @@ UE_DB = {
             8: "TD6 - Obligations non financières",
             9: "TD7 - Flux de trésorerie",
             10: "TD8 - Synthèse & Révision"
+        },
+        "exercices": {
+            1: "Cas Electrix",
+            2: "Cas Speedway",
+            3: "Cas Autoloc",
+            4: "Cas Alizeo",
+            5: "Cas Fabric",
+            6: "Cas Serena",
+            7: "Cas Pietra",
+            8: "Cas Belhotel",
+            9: "Cas Schemler",
+            10: "Examen 2021 (extraits)"
         }
     },
     "4": {
         "nom": "Gestion des RH",
         "prof": "Florent Noël",
+        "keywords": ["RESSOURCES HUMAINES", "GRH", "SALARIE"],
         "sessions": {
             1: "Amphi Intro - Intro GRH",
             2: "Marges de manœuvre fonction RH",
@@ -73,11 +90,18 @@ UE_DB = {
             4: "Mobilisation des salariés",
             5: "GPEC",
             6: "Amphi de Clôture"
+        },
+        "exercices": {
+            2: "Voir EPI",
+            3: "Voir EPI",
+            4: "Voir EPI",
+            5: "Voir EPI"
         }
     },
     "5": {
         "nom": "Marketing",
         "prof": "J-L Brunstein & O. Sabri",
+        "keywords": ["MARKETING", "VENTE", "DISTRIBUTION", "PRIX"],
         "sessions": {
             1: "Amphi Intro - Marketing & défis",
             2: "Démarche mkg & comportement conso",
@@ -89,11 +113,21 @@ UE_DB = {
             8: "Communication & digital",
             9: "Présentation de projet",
             10: "Amphi Conclusion - Performance mkg"
+        },
+        "exercices": {
+            2: "Cas Bague de fiançailles",
+            3: "Cas PizzaWave",
+            4: "Cas BMW",
+            5: "Cas Dyson",
+            6: "Cas Fadéo",
+            7: "Cas Literie Germain",
+            8: "Cas Inoui"
         }
     },
     "6": {
         "nom": "Projets, Innovation & Supply Chain",
         "prof": "Christine Triomphe",
+        "keywords": ["SUPPLY CHAIN", "SCM", "INNOVATION", "PROJET"],
         "sessions": {
             1: "Cours 1 - Intro SCM & Projets",
             2: "SCM : Choix stratégiques",
@@ -105,11 +139,22 @@ UE_DB = {
             8: "Méthodes Agiles",
             9: "Design Thinking",
             10: "Open Innovation"
+        },
+        "exercices": {
+            2: "Cas McDonald's",
+            3: "Cas Amazon",
+            4: "Cas TechnoCentre",
+            5: "Cas Videogames",
+            7: "Cas Kwid",
+            8: "Cas Pearson",
+            9: "Cas IDEO (Vidéo)",
+            10: "Cas HyperLoop"
         }
     },
     "7": {
         "nom": "Finance d'entreprise",
         "prof": "Jérôme Caby",
+        "keywords": ["FINANCE", "RENTABILITE", "SOLVABILITE", "TRESORERIE"],
         "sessions": {
             1: "Amphi 1 - Intro Analyse fi",
             2: "SIG & Rentabilité",
@@ -121,11 +166,22 @@ UE_DB = {
             8: "Plan de financement",
             9: "Diagnostic comptes consolidés",
             10: "Amphi 2 - Approfondissement/Synthèse"
+        },
+        "exercices": {
+            2: "Cas PRAG",
+            3: "Cas CAMBO",
+            4: "Cas TUSI",
+            5: "Cas TUSI",
+            6: "Cas TURCO",
+            7: "Cas Anandam",
+            8: "Cas SMIN",
+            9: "Cas Plastic Omnium"
         }
     },
     "8": {
         "nom": "Management des SI",
         "prof": "P. Eynaud & J-L Richet",
+        "keywords": ["SYSTEME D'INFORMATION", "SI", "GOUVERNANCE", "URBANISATION"],
         "sessions": {
             1: "Place des SI dans organisations",
             2: "Gouvernance",
@@ -135,11 +191,22 @@ UE_DB = {
             6: "Alignement (2/2)",
             7: "Cas synthèse Gouvernance",
             8: "Cas synthèse global"
+        },
+        "exercices": {
+            1: "Cas n°1 introductif",
+            2: "Cas n°2 gouvernance",
+            3: "Cas n°3 urbanisation",
+            4: "Cas n°3 urbanisation",
+            5: "Cas n°4 alignement",
+            6: "Cas n°4 alignement",
+            7: "Cas n°5 synthèse",
+            8: "Cas n°6 synthèse"
         }
     },
     "9": {
         "nom": "Contrôle de gestion",
         "prof": "Olivier de La Villarmois",
+        "keywords": ["CONTROLE DE GESTION", "COUT", "BUDGET"],
         "sessions": {
             1: "Amphi 1 - Intro & Coûts",
             2: "Système calcul de coût",
@@ -151,11 +218,24 @@ UE_DB = {
             8: "Yield Management",
             9: "Tableaux de bord & RSE",
             10: "Amphi 2 - Gestion stratégique coûts"
+        },
+        "exercices": {
+            1: "Cas Lucky Duck",
+            2: "Cas LM Hopital",
+            3: "Cas Amazon & Auto Collection",
+            4: "Cas Pelino 2",
+            5: "Cas Data Meca",
+            6: "Cas Mon premier BP",
+            7: "Cas Quard-heure",
+            8: "Cas Classotel",
+            9: "Cas Business Model Canvas",
+            10: "Cas La Cantina"
         }
     },
     "10": {
         "nom": "Organisations & Comportements",
         "prof": "Nathalie Raulet-Croset",
+        "keywords": ["COMPORTEMENT", "ORGANISATION", "LEADERSHIP"],
         "sessions": {
             1: "Amphi - Cadre analyse multi-niveaux",
             2: "Intro analyse comportements",
@@ -167,13 +247,25 @@ UE_DB = {
             8: "Télétravail & distance",
             9: "Entreprise sans hiérarchie ?",
             10: "Amphi Synthèse"
+        },
+        "exercices": {
+            2: "Cas Trecca",
+            3: "Cas PDT",
+            4: "Cas ZYX",
+            5: "Cas Assurance Plus",
+            6: "Cas Le retour du héros",
+            7: "Cas La Patrouille de France",
+            8: "Cas Business Unit",
+            9: "Cas Ingeserv",
+            10: "Cas Chronoflex"
         }
     },
     "11": {
         "nom": "Stratégie de l'entreprise",
         "prof": "D. Chabaud & P. Garaudel",
+        "keywords": ["STRATEGIE", "CONCURRENTIEL", "BUSINESS MODEL"],
         "sessions": {
-            1: "Cours Introductif (Amphi)", # Déduit de la méthode péda
+            1: "Cours Introductif (Amphi)",
             2: "Cas d'examen précédent",
             3: "Analyse concurrentielle",
             4: "Stratégie Business & Inter",
@@ -182,11 +274,21 @@ UE_DB = {
             7: "Stratégie Corporate & Chaine valeur",
             8: "Synthèse",
             9: "Cours Conclusion (Amphi)"
+        },
+        "exercices": {
+            2: "Cas Total",
+            3: "Cas Transport Aérien",
+            4: "Cas Netflix",
+            5: "Cas Schindler",
+            6: "Cas Blablacar",
+            7: "Cas Engie",
+            8: "Cas Danone"
         }
     },
     "12": {
         "nom": "Management International",
         "prof": "Pierre-Yves Lagroue",
+        "keywords": ["INTERNATIONAL", "MONDE", "ETRANGER"],
         "sessions": {
             1: "Facteurs de l'internationalisation",
             2: "Modes d'entrée (1/2)",
@@ -196,7 +298,8 @@ UE_DB = {
             6: "Stratégies internationales",
             7: "Organisation & Management (1/2)",
             8: "Organisation & Management (2/2)"
-        }
+        },
+        "exercices": {}
     }
 }
 
@@ -215,20 +318,30 @@ def parse_french_date(date_str):
     except Exception:
         return None
 
+def detect_ue_from_text(text):
+    """Essaie de deviner l'UE à partir du texte si le #UE est manquant"""
+    text_upper = text.upper()
+    for ue_id, data in UE_DB.items():
+        # Vérification par nom exact
+        if data['nom'].upper() in text_upper:
+            return ue_id
+        # Vérification par mots-clés
+        for kw in data.get('keywords', []):
+            if kw in text_upper:
+                return ue_id
+    return None
+
 def main():
     cal = Calendar()
     session = requests.Session()
     
-    # --- MÉMOIRE ---
-    # Pour savoir quel cours est actif sur quel créneau (ex: '18:15' -> UE '7')
+    # Mémoire des créneaux (ex: '18:15' -> '5')
     active_ue_on_slot = {} 
-    
-    # Pour savoir à quelle séance on est pour chaque UE (ex: UE '7' -> Séance 3)
+    # Compteur de progression pour chaque UE
     ue_progress = {ue_id: 0 for ue_id in UE_DB.keys()}
 
-    print("Démarrage du scraping intelligent...")
+    print("Démarrage du scraping (Mode Robust + Exercices)...")
 
-    # On scanne une large plage pour reconstituer l'historique
     for page in range(1, 25):
         url = f"{BASE_URL}&page={page}"
         print(f"Traitement page {page}...")
@@ -269,48 +382,47 @@ def main():
                     subject_raw = cols[2].get_text(strip=True)
                     
                     ue_id = None
-                    is_explicit_start = False
-
-                    # A. Cas Explicite (Le site affiche #UE)
+                    
+                    # A. Priorité absolue : Le tag #UE dans la colonne dédiée
                     match = re.search(r'#(\d+)', raw_ue_text)
                     if match:
                         ue_id = match.group(1)
-                        # Si c'est un "Amphi 1" ou "Ouverture", on reset le compteur
+                        # Reset si c'est un amphi d'ouverture
                         if "OUVERTURE" in subject_raw.upper() or "AMPHI 1" in subject_raw.upper() or "INTRO" in subject_raw.upper():
                              ue_progress[ue_id] = 0
-                             is_explicit_start = True
-                        
-                        # On met à jour la mémoire du créneau
                         active_ue_on_slot[slot_key] = ue_id
 
-                    # B. Cas Implicite (Pas de #, on regarde la mémoire)
-                    else:
+                    # B. Détection par mots-clés dans le sujet (si pas de #)
+                    # C'est ce qui manquait pour le Marketing !
+                    if not ue_id:
+                        ue_id = detect_ue_from_text(subject_raw)
+                        if ue_id:
+                            active_ue_on_slot[slot_key] = ue_id
+
+                    # C. Dernier recours : Mémoire du créneau horaire
+                    if not ue_id:
                         ue_id = active_ue_on_slot.get(slot_key)
 
-                    # Si aucune UE identifiée, on passe (ou on crée un event générique)
-                    if not ue_id:
-                        continue
+                    # Si toujours rien, on ignore
+                    if not ue_id: continue
 
-                    # 3. GESTION PROGRESSION & FIN DE COURS
-                    # On incrémente le compteur pour cette UE
+                    # 3. GESTION PROGRESSION
                     ue_progress[ue_id] += 1
                     current_session_num = ue_progress[ue_id]
                     
                     ue_data = UE_DB.get(ue_id, {})
                     max_sessions = len(ue_data.get("sessions", {}))
 
-                    # STOPPER FINANCE (ou autre) si on dépasse le nombre de séances prévues
-                    if current_session_num > max_sessions:
-                        # On considère que le cours est fini, on ne l'ajoute pas
-                        # et on libère le slot mémoire pour éviter les erreurs futures
-                        if active_ue_on_slot.get(slot_key) == ue_id:
-                            del active_ue_on_slot[slot_key]
-                        continue
+                    # 4. DONNÉES DU COURS
+                    # On ne supprime plus le cours s'il dépasse max_sessions, on le marque juste
+                    if current_session_num <= max_sessions:
+                        session_theme = ue_data.get("sessions", {}).get(current_session_num, subject_raw)
+                        session_exercice = ue_data.get("exercices", {}).get(current_session_num, "")
+                    else:
+                        session_theme = f"Séance Supplémentaire ou Décalée : {subject_raw}"
+                        session_exercice = ""
 
-                    # 4. ENRICHISSEMENT DONNÉES
-                    session_theme = ue_data.get("sessions", {}).get(current_session_num, subject_raw)
                     prof_name = ue_data.get("prof", "")
-                    
                     title = f"[UE {ue_id}] {ue_data.get('nom', 'Matière Inconnue')}"
                     
                     # 5. SALLE & EXAMENS
@@ -318,10 +430,15 @@ def main():
                     room = room_tag.get_text(strip=True) if room_tag else "Inconnu"
                     address = room
                     
-                    if "ARCUEIL" in room.upper():
+                    # Détection Examen (Mots clés ou salle)
+                    is_exam = "EXAMEN" in subject_raw.upper() or "ARCUEIL" in room.upper()
+                    
+                    if is_exam:
                         title = f"📝 EXAMEN - {title}"
-                        address = "Maison des Examens, 7 Rue Ernest Renan, 94110 Arcueil"
                         session_theme = "Examen Final"
+                        if "ARCUEIL" in room.upper():
+                            address = "Maison des Examens, 7 Rue Ernest Renan, 94110 Arcueil"
+                            room = "Maison des Examens"
                     elif "LIGNE" in room.upper():
                         room = "🖥️ En ligne"
 
@@ -338,14 +455,19 @@ def main():
                     
                     desc = [
                         f"Thème: {session_theme}",
-                        f"Intervenant: {prof_name}",
-                        f"Salle: {room}",
-                        f"Progression: Séance {current_session_num} sur {max_sessions}"
                     ]
+                    
+                    if session_exercice:
+                        desc.append(f"📚 À préparer: {session_exercice}")
+                        
+                    desc.append(f"👨‍🏫 Intervenant: {prof_name}")
+                    desc.append(f"📍 Salle: {room}")
+                    desc.append(f"Progression: Séance {current_session_num} sur {max_sessions}")
+                    
                     e.description = "\n".join(desc)
                     
                     cal.events.add(e)
-                    print(f" + {title} - {session_theme} ({dt_start})")
+                    print(f" + {title} ({dt_start})")
 
         except Exception as e:
             print(f"Erreur page {page}: {e}")
