@@ -9,7 +9,10 @@ Contrairement au planning officiel, cette version est **enrichie** avec les dét
 Pour avoir votre emploi du temps toujours à jour sur votre téléphone ou ordinateur, ajoutez l'URL suivante via la fonction "S'abonner à un calendrier" (ou "Ajouter un calendrier par URL") :
 
 **Lien du calendrier (.ics) :**
-```https://raw.githubusercontent.com/Poulereaper/Planning-IAE-MAEFI208/refs/heads/main/planning.ics```
+
+```
+https://raw.githubusercontent.com/Poulereaper/Planning-IAE-MAEFI208/refs/heads/main/planning.ics
+```
 
 ### Via QR Code
 Scannez ce code pour ajouter directement le calendrier à votre calendrier :
