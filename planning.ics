@@ -2,523 +2,627 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Thème: Droit des biens\n👨‍🏫 Intervenant: Marianne Dournaux\n📍 Salle: 🖥️ En ligne\n📌 Type: Amphi / Conférence (Distanciel)\nProgression: Séance 11 sur 14
-DTEND:20260330T193000Z
-LOCATION:En ligne
-DTSTART:20260330T163000Z
-SUMMARY:[UE 2] Droit des affaires
-UID:1eb898b5-6c3e-4e25-b2fc-28618f82c4bf@1eb8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: TD5 - Résultat activités ordinaires\n📚 À préparer: Cas Serena\n👨‍🏫 Intervenant: Stéphane Bellanger\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 6 sur 10
-DTEND:20251021T201500Z
-LOCATION:D5
-DTSTART:20251021T181500Z
-SUMMARY:[UE 3] Information comptable
-UID:624a2f66-ea48-4e4b-811b-3217377999af@624a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Amphi Ouverture - PIB & Croissance\n👨‍🏫 Intervenant: Stéphane Saussier\n📍 Salle: 🖥️ En ligne\n📌 Type: Amphi / Conférence (Distanciel)\nProgression: Séance 1 sur 8
-DTEND:20250915T193000Z
-LOCATION:En ligne
-DTSTART:20250915T163000Z
-SUMMARY:[UE 1] Environnement Économique
-UID:0a29b301-b85e-4cf0-a331-23ae18522467@0a29.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: CM En ligne 1 - Intro matière\n👨‍🏫 Intervenant: Marianne Dournaux\n📍 Salle: 🖥️ En ligne\n📌 Type: Amphi / Conférence (Distanciel)\nProgression: Séance 1 sur 14
-DTEND:20260119T203000Z
-LOCATION:En ligne
-DTSTART:20260119T173000Z
-SUMMARY:[UE 2] Droit des affaires
-UID:3e3d7749-905b-4601-9f5a-039671041f9f@3e3d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: TD8 - Synthèse & Révision\n📚 À préparer: Examen 2021 (extraits)\n👨‍🏫 Intervenant: Stéphane Bellanger\n📍 Salle: 🖥️ En ligne\n📌 Type: TD (Distanciel)\nProgression: Séance 10 sur 10
-DTEND:20251110T211500Z
-LOCATION:En ligne
-DTSTART:20251110T191500Z
-SUMMARY:[UE 3] Information comptable
-UID:c9023c21-7004-4204-b889-2869aed9c8e0@c902.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Coordination SC étendue\n📚 À préparer: Cas Amazon\n👨‍🏫 Intervenant: Christine Triomphe\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 3 sur 10
-DTEND:20251125T191500Z
-LOCATION:D5
-DTSTART:20251125T171500Z
-SUMMARY:[UE 6] Projets\, Innovation & Supply Chain
-UID:515f914e-9ebe-4789-8818-40396d5de653@515f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Cours 2 - Management Innovation\n👨‍🏫 Intervenant: Christine Triomphe\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 6 sur 10
-DTEND:20251216T191500Z
-LOCATION:D5
-DTSTART:20251216T171500Z
-SUMMARY:[UE 6] Projets\, Innovation & Supply Chain
-UID:228e2a84-6721-40e5-bf8a-a471c4c13c1b@228e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Environnement & nouveaux modèles\n👨‍🏫 Intervenant: Stéphane Saussier\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 7 sur 8
-DTEND:20251028T191500Z
-LOCATION:D5
-DTSTART:20251028T171500Z
-SUMMARY:[UE 1] Environnement Économique
-UID:eac614b6-cb4d-414d-9940-15574f94f524@eac6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: SCM : Choix stratégiques\n📚 À préparer: Cas McDonald's\n👨‍🏫 Intervenant: Christine Triomphe\n📍 Salle: 🖥️ En ligne\n📌 Type: Amphi / Conférence (Distanciel)\nProgression: Séance 2 sur 10
-DTEND:20251124T210000Z
-LOCATION:En ligne
-DTSTART:20251124T180000Z
-SUMMARY:[UE 6] Projets\, Innovation & Supply Chain
-UID:e35d16fd-bd9b-4ba8-aa56-f91381011fd8@e35d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Cours 1 - Intro SCM & Projets\n👨‍🏫 Intervenant: Christine Triomphe\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 1 sur 10
-DTEND:20251118T191500Z
-LOCATION:D5
-DTSTART:20251118T171500Z
-SUMMARY:[UE 6] Projets\, Innovation & Supply Chain
-UID:83162eac-5c9c-4794-8f69-6e6990a55e81@8316.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Stratégie marketing\n📚 À préparer: Cas BMW\n👨‍🏫 Intervenant: J-L Brunstein & O. Sabri\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 4 sur 10
-DTEND:20260210T211500Z
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260414T201500Z
 LOCATION:A1
-DTSTART:20260210T191500Z
-SUMMARY:[UE 5] Marketing
-UID:cc529ffd-e713-49dd-b4ed-0807e44e5402@cc52.org
+DTSTART:20260414T181500Z
+SUMMARY:MAE 25.208 FIS
+UID:448faee6-f500-4dbf-93c7-3b66592365d2@448f.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Thème: TD1 - Modèle comptable & états financiers\n📚 À préparer: Cas Speedway\n👨‍🏫 Intervenant: Stéphane Bellanger\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 2 sur 10
-DTEND:20250923T201500Z
-LOCATION:D5
-DTSTART:20250923T181500Z
-SUMMARY:[UE 3] Information comptable
-UID:336b955d-c863-4454-b135-ea30e74913ac@336b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: TD7 - Flux de trésorerie\n📚 À préparer: Cas Schemler\n👨‍🏫 Intervenant: Stéphane Bellanger\n📍 Salle: D6\n📌 Type: TD\nProgression: Séance 9 sur 10
-DTEND:20251104T211500Z
-LOCATION:D6
-DTSTART:20251104T191500Z
-SUMMARY:[UE 3] Information comptable
-UID:99786ef0-94ea-43de-b222-8d522d6a536e@9978.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Outils gestion de projet (Business Case)\n📚 À préparer: Cas Videogames\n👨‍🏫 Intervenant: Christine Triomphe\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 5 sur 10
-DTEND:20251209T191500Z
-LOCATION:D5
-DTSTART:20251209T171500Z
-SUMMARY:[UE 6] Projets\, Innovation & Supply Chain
-UID:30c6563c-e523-4c70-bc5f-7d66cfd2111e@30c6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Présentation de projet\n👨‍🏫 Intervenant: J-L Brunstein & O. Sabri\n📍 Salle: 🖥️ En ligne\n📌 Type: Amphi / Conférence (Distanciel)\nProgression: Séance 9 sur 10
-DTEND:20260316T203000Z
-LOCATION:En ligne
-DTSTART:20260316T173000Z
-SUMMARY:[UE 5] Marketing
-UID:813a8281-608b-4283-8829-175e70822ea8@813a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Droit des sociétés (Crises)\n👨‍🏫 Intervenant: Marianne Dournaux\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 9 sur 14
-DTEND:20260317T191500Z
-LOCATION:A1
-DTSTART:20260317T171500Z
-SUMMARY:[UE 2] Droit des affaires
-UID:f80ff575-42b6-4dd0-9afd-1c0763eb393c@f80f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Communication & digital\n📚 À préparer: Cas Inoui\n👨‍🏫 Intervenant: J-L Brunstein & O. Sabri\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 8 sur 10
-DTEND:20260310T211500Z
-LOCATION:A1
-DTSTART:20260310T191500Z
-SUMMARY:[UE 5] Marketing
-UID:d9a5b8d9-afd2-43c5-b455-2c5dc7b69d81@d9a5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Droit des sociétés (Cessions)\n👨‍🏫 Intervenant: Marianne Dournaux\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 8 sur 14
-DTEND:20260310T191500Z
-LOCATION:A1
-DTSTART:20260310T171500Z
-SUMMARY:[UE 2] Droit des affaires
-UID:4c4933a1-e9ad-415d-b0c6-eb191459543e@4c49.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Relation salariale & incitation\n👨‍🏫 Intervenant: Stéphane Saussier\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 2 sur 8
-DTEND:20250923T181500Z
-LOCATION:D5
-DTSTART:20250923T161500Z
-SUMMARY:[UE 1] Environnement Économique
-UID:85025be2-954e-4ef1-95fa-f9afebc9b470@8502.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Entreprises en difficulté\n👨‍🏫 Intervenant: Marianne Dournaux\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 14 sur 14
-DTEND:20260505T181500Z
-LOCATION:A1
-DTSTART:20260505T161500Z
-SUMMARY:[UE 2] Droit des affaires
-UID:f697a575-a627-4115-906b-81a1f7736e5d@f697.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Méthodes Agiles\n📚 À préparer: Cas Pearson\n👨‍🏫 Intervenant: Christine Triomphe\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 8 sur 10
-DTEND:20260113T191500Z
-LOCATION:D5
-DTSTART:20260113T171500Z
-SUMMARY:[UE 6] Projets\, Innovation & Supply Chain
-UID:ab7308ff-cbac-47d5-ba61-2d574dabe68f@ab73.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Plan de financement\n📚 À préparer: Cas SMIN\n👨‍🏫 Intervenant: Jérôme Caby\n📍 Salle: 🖥️ En ligne\n📌 Type: TD (Distanciel)\nProgression: Séance 8 sur 10
-DTEND:20260106T211500Z
-LOCATION:En ligne
-DTSTART:20260106T191500Z
-SUMMARY:[UE 7] Finance d'entreprise
-UID:e2697d64-ef59-431c-8f09-26fc267ecee6@e269.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Amphi Intro - Intro GRH\n👨‍🏫 Intervenant: Florent Noël\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 1 sur 6
-DTEND:20260512T181500Z
-LOCATION:A1
-DTSTART:20260512T161500Z
-SUMMARY:[UE 4] Gestion des RH
-UID:1e599ac6-f04d-4fb0-95f2-c26d389dadac@1e59.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: TD4 - Actifs courants\n📚 À préparer: Cas Fabric\n👨‍🏫 Intervenant: Stéphane Bellanger\n📍 Salle: A4\n📌 Type: TD\nProgression: Séance 5 sur 10
-DTEND:20251014T201500Z
-LOCATION:A4
-DTSTART:20251014T181500Z
-SUMMARY:[UE 3] Information comptable
-UID:ae948c90-9d01-4ece-933c-06653369209d@ae94.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Les frontières de l'entreprise\n👨‍🏫 Intervenant: Stéphane Saussier\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 4 sur 8
-DTEND:20251007T181500Z
-LOCATION:D5
-DTSTART:20251007T161500Z
-SUMMARY:[UE 1] Environnement Économique
-UID:0dead07b-1afe-43da-a906-69cd1c4f4a78@0dea.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: SIG & Rentabilité\n📚 À préparer: Cas PRAG\n👨‍🏫 Intervenant: Jérôme Caby\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 2 sur 10
-DTEND:20251118T211500Z
-LOCATION:D5
-DTSTART:20251118T191500Z
-SUMMARY:[UE 7] Finance d'entreprise
-UID:4046fde7-71a0-477f-bf94-2b27969f6192@4046.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: L'entreprise et la production\n👨‍🏫 Intervenant: Stéphane Saussier\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 3 sur 8
-DTEND:20250930T181500Z
-LOCATION:D5
-DTSTART:20250930T161500Z
-SUMMARY:[UE 1] Environnement Économique
-UID:d7800800-7d63-4853-96f1-675cbd19bbc5@d780.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Les cartels\n👨‍🏫 Intervenant: Stéphane Saussier\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 6 sur 8
-DTEND:20251021T181500Z
-LOCATION:D5
-DTSTART:20251021T161500Z
-SUMMARY:[UE 1] Environnement Économique
-UID:a56d7302-3094-49b7-ba3d-8f294736dab5@a56d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Tableaux de flux (2/2)\n📚 À préparer: Cas TUSI\n👨‍🏫 Intervenant: Jérôme Caby\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 5 sur 10
-DTEND:20251209T211500Z
-LOCATION:D5
-DTSTART:20251209T191500Z
-SUMMARY:[UE 7] Finance d'entreprise
-UID:12eee21e-7c05-4a0a-aa1e-e7f6f119b1b2@12ee.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Droit de la responsabilité civile\n👨‍🏫 Intervenant: Marianne Dournaux\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 5 sur 14
-DTEND:20260217T191500Z
-LOCATION:A1
-DTSTART:20260217T171500Z
-SUMMARY:[UE 2] Droit des affaires
-UID:70ec8fca-1919-4dcc-a921-6af93bf448cf@70ec.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Marges de manœuvre fonction RH\n📚 À préparer: Voir EPI\n👨‍🏫 Intervenant: Florent Noël\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 2 sur 6
-DTEND:20260519T181500Z
-LOCATION:A1
-DTSTART:20260519T161500Z
-SUMMARY:[UE 4] Gestion des RH
-UID:45ce107e-db7c-4467-a0f5-15c5b8709f46@45ce.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Rôle de l'Etat & gestion publique\n👨‍🏫 Intervenant: Stéphane Saussier\n📍 Salle: A4\n📌 Type: TD\nProgression: Séance 5 sur 8
-DTEND:20251014T181500Z
-LOCATION:A4
-DTSTART:20251014T161500Z
-SUMMARY:[UE 1] Environnement Économique
-UID:f99fd156-5760-45c6-b912-a213910c842f@f99f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Open Innovation\n📚 À préparer: Cas HyperLoop\n👨‍🏫 Intervenant: Christine Triomphe\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 10 sur 10
-DTEND:20260120T191500Z
-LOCATION:D5
-DTSTART:20260120T171500Z
-SUMMARY:[UE 6] Projets\, Innovation & Supply Chain
-UID:1d9c6df6-033a-4262-af12-eb18e362248c@1d9c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Amphi Intro - Marketing & défis\n👨‍🏫 Intervenant: J-L Brunstein & O. Sabri\n📍 Salle: 🖥️ En ligne\n📌 Type: Amphi / Conférence (Distanciel)\nProgression: Séance 1 sur 10
-DTEND:20260108T203000Z
-LOCATION:En ligne
-DTSTART:20260108T173000Z
-SUMMARY:[UE 5] Marketing
-UID:93503d0e-abec-4ad2-b680-f6f86f204e62@9350.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: TD6 - Obligations non financières\n📚 À préparer: Cas Belhotel\n👨‍🏫 Intervenant: Stéphane Bellanger\n📍 Salle: 🖥️ En ligne\n📌 Type: Amphi / Conférence (Distanciel)\nProgression: Séance 8 sur 10
-DTEND:20251103T203000Z
-LOCATION:En ligne
-DTSTART:20251103T173000Z
-SUMMARY:[UE 3] Information comptable
-UID:2acdffc1-7b11-4725-8d68-c24d089244ff@2acd.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Connaissance marché & études quanti\n📚 À préparer: Cas PizzaWave\n👨‍🏫 Intervenant: J-L Brunstein & O. Sabri\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 3 sur 10
-DTEND:20260203T211500Z
-LOCATION:A1
-DTSTART:20260203T191500Z
-SUMMARY:[UE 5] Marketing
-UID:f778556a-140d-4932-a6ba-4b5334511f86@f778.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Tableaux de flux (1/2)\n📚 À préparer: Cas TUSI\n👨‍🏫 Intervenant: Jérôme Caby\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 4 sur 10
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: #7
 DTEND:20251202T211500Z
 LOCATION:A1
 DTSTART:20251202T191500Z
-SUMMARY:[UE 7] Finance d'entreprise
-UID:3fbc82b3-bb6b-46e7-8175-1568ad0142c7@3fbc.org
+SUMMARY:#7 - MAE 25.208 FIS
+UID:c093fa19-7d17-494a-a5e3-97515687c25c@c093.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Thème: Droit des contrats (Effets)\n👨‍🏫 Intervenant: Marianne Dournaux\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 4 sur 14
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
 DTEND:20260210T191500Z
 LOCATION:A1
 DTSTART:20260210T171500Z
-SUMMARY:[UE 2] Droit des affaires
-UID:65556ab1-26e5-48a9-8a0b-534a18e2a12b@6555.org
+SUMMARY:MAE 25.208 FIS
+UID:98485f37-b441-4fda-b5f8-3b1f94066973@9848.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Thème: Amphi Conclusion - Performance mkg\n👨‍🏫 Intervenant: J-L Brunstein & O. Sabri\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 10 sur 10
-DTEND:20260317T211500Z
-LOCATION:A1
-DTSTART:20260317T191500Z
-SUMMARY:[UE 5] Marketing
-UID:24dea946-75b9-4b41-a865-31c698ae7393@24de.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Projets conception nouveaux produits\n📚 À préparer: Cas TechnoCentre\n👨‍🏫 Intervenant: Christine Triomphe\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 4 sur 10
-DTEND:20251202T191500Z
-LOCATION:A1
-DTSTART:20251202T171500Z
-SUMMARY:[UE 6] Projets\, Innovation & Supply Chain
-UID:c49e63d2-7a58-4fc9-94e1-ae282caa32e1@c49e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Amphi 1 - Contexte normatif\n📚 À préparer: Cas Electrix\n👨‍🏫 Intervenant: Stéphane Bellanger\n📍 Salle: 🖥️ En ligne\n📌 Type: Amphi / Conférence (Distanciel)\nProgression: Séance 1 sur 10
-DTEND:20250918T193000Z
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: #1
+DTEND:20251113T210000Z
 LOCATION:En ligne
-DTSTART:20250918T163000Z
-SUMMARY:[UE 3] Information comptable
-UID:92601471-7834-431d-93bb-7ee69eb1bec8@9260.org
+DTSTART:20251113T180000Z
+SUMMARY:#1 - MAE 25.208 FIS
+UID:07526ab7-1b0c-4719-99a3-bd4ac825b365@0752.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Thème: Démarche mkg & comportement conso\n📚 À préparer: Cas Bague de fiançailles\n👨‍🏫 Intervenant: J-L Brunstein & O. Sabri\n📍 Salle: D3\n📌 Type: TD\nProgression: Séance 2 sur 10
-DTEND:20260127T211500Z
-LOCATION:D3
-DTSTART:20260127T191500Z
-SUMMARY:[UE 5] Marketing
-UID:652ab7f2-a4f9-48ac-9d20-c5189dfdab79@652a.org
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: #5
+DTEND:20260108T203000Z
+LOCATION:En ligne
+DTSTART:20260108T173000Z
+SUMMARY:#5 - MAE 25.208 FIS
+UID:d0e745cb-0574-4099-9f9f-616914cee5f3@d0e7.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Thème: Droit des sociétés (Formation)\n👨‍🏫 Intervenant: Marianne Dournaux\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 7 sur 14
-DTEND:20260303T191500Z
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: 
+DTEND:20250916T181500Z
+LOCATION:D5
+DTSTART:20250916T161500Z
+SUMMARY:MAE 25.208 FIS
+UID:d37ad3f8-c986-41e7-ba8b-7e71af347881@d37a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260505T201500Z
 LOCATION:A1
-DTSTART:20260303T171500Z
-SUMMARY:[UE 2] Droit des affaires
-UID:e5cf1d4d-cb6c-436b-8525-f0b5fcc39e08@e5cf.org
+DTSTART:20260505T161500Z
+SUMMARY:MAE 25.208 FIS
+UID:9abdf2f5-c214-4b6d-bdae-26ab941bf8b2@9abd.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Thème: Responsabilité des dirigeants\n👨‍🏫 Intervenant: Marianne Dournaux\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 10 sur 14
-DTEND:20260324T191500Z
-LOCATION:A1
-DTSTART:20260324T171500Z
-SUMMARY:[UE 2] Droit des affaires
-UID:2ba47231-85fe-4202-a4a9-ffe710bd8d47@2ba4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: CM En ligne 2 - Éléments de cours\n👨‍🏫 Intervenant: Marianne Dournaux\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 6 sur 14
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
 DTEND:20260224T191500Z
 LOCATION:A1
 DTSTART:20260224T171500Z
-SUMMARY:[UE 2] Droit des affaires
-UID:3e179ea6-2ea5-43f0-8cab-2112c0c530b2@3e17.org
+SUMMARY:MAE 25.208 FIS
+UID:50e01e73-7d36-4a3c-b36e-f570eb3511c7@50e0.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Thème: Vente & distribution\n📚 À préparer: Cas Literie Germain\n👨‍🏫 Intervenant: J-L Brunstein & O. Sabri\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 7 sur 10
-DTEND:20260303T211500Z
-LOCATION:A1
-DTSTART:20260303T191500Z
-SUMMARY:[UE 5] Marketing
-UID:a84f9191-c98a-4e54-b81e-26a60d96f686@a84f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Examen Final\n📚 À préparer: Voir EPI\n👨‍🏫 Intervenant: Florent Noël\n📍 Salle: Maison des Examens\n📌 Type: Examen\nProgression: Séance 3 sur 6
-DTEND:20260606T100000Z
+DESCRIPTION:Cours IAE\nSalle: Maison des Examens (Arcueil)\nUE: #3
+DTEND:20251122T160000Z
 LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
-DTSTART:20260606T070000Z
-SUMMARY:📝 EXAMEN - [UE 4] Gestion des RH
-UID:81d77897-142d-4fe3-a4b7-49f676828b7b@81d7.org
+DTSTART:20251122T130000Z
+SUMMARY:[EXAMEN] #3 - MAE 25.208 FIS
+UID:8d5c7b0c-d6bc-4ff0-9446-4347039ef500@8d5c.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Thème: Diagnostic comptes consolidés\n📚 À préparer: Cas Plastic Omnium\n👨‍🏫 Intervenant: Jérôme Caby\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 9 sur 10
-DTEND:20260113T211500Z
-LOCATION:D5
-DTSTART:20260113T191500Z
-SUMMARY:[UE 7] Finance d'entreprise
-UID:5a4599ff-cc7b-4527-851a-015eba096f02@5a45.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Politique prix & valeur\n📚 À préparer: Cas Fadéo\n👨‍🏫 Intervenant: J-L Brunstein & O. Sabri\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 6 sur 10
-DTEND:20260224T211500Z
-LOCATION:A1
-DTSTART:20260224T191500Z
-SUMMARY:[UE 5] Marketing
-UID:89209cc4-34ec-446e-a289-bc6f6e100836@8920.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Amphi 1 - Intro Analyse fi\n👨‍🏫 Intervenant: Jérôme Caby\n📍 Salle: 🖥️ En ligne\n📌 Type: Amphi / Conférence (Distanciel)\nProgression: Séance 1 sur 10
-DTEND:20251117T203000Z
-LOCATION:En ligne
-DTSTART:20251117T173000Z
-SUMMARY:[UE 7] Finance d'entreprise
-UID:81d42d70-fb5e-4331-9852-22c73c9c9ca1@81d4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Amphi 2 - Actifs immatériels & Goodwill\n📚 À préparer: Cas Pietra\n👨‍🏫 Intervenant: Stéphane Bellanger\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 7 sur 10
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: #3
 DTEND:20251028T211500Z
 LOCATION:D5
 DTSTART:20251028T191500Z
-SUMMARY:[UE 3] Information comptable
-UID:a37066bf-6b0a-42f1-88d6-2aea6a44c6b1@a370.org
+SUMMARY:#3 - MAE 25.208 FIS
+UID:cf06b82d-2c0a-4765-bd25-c054fad1cbc9@cf06.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Thème: Intro générale au droit\n👨‍🏫 Intervenant: Marianne Dournaux\n📍 Salle: A2\n📌 Type: TD\nProgression: Séance 2 sur 14
-DTEND:20260127T191500Z
-LOCATION:A2
-DTSTART:20260127T171500Z
-SUMMARY:[UE 2] Droit des affaires
-UID:db17ada6-e30b-48bc-812b-825ab4d866f7@db17.org
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: 
+DTEND:20251125T191500Z
+LOCATION:D5
+DTSTART:20251125T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:ce95af20-896b-4c22-956c-f231ca77abbd@ce95.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Thème: Examen Final\n👨‍🏫 Intervenant: Marianne Dournaux\n📍 Salle: Maison des Examens\n📌 Type: Examen\nProgression: Séance 13 sur 14
-DTEND:20260425T100000Z
-LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
-DTSTART:20260425T070000Z
-SUMMARY:📝 EXAMEN - [UE 2] Droit des affaires
-UID:d844e9e4-6538-4828-a581-403cd00430a8@d844.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Droit des contrats (Formation)\n👨‍🏫 Intervenant: Marianne Dournaux\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 3 sur 14
-DTEND:20260203T191500Z
-LOCATION:A1
-DTSTART:20260203T171500Z
-SUMMARY:[UE 2] Droit des affaires
-UID:c99a00e0-b85d-44e2-afa0-8f66e2105be5@c99a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Cas synthèse Anglosaxon\n📚 À préparer: Cas Anandam\n👨‍🏫 Intervenant: Jérôme Caby\n📍 Salle: 🖥️ En ligne\n📌 Type: Amphi / Conférence (Distanciel)\nProgression: Séance 7 sur 10
-DTEND:20260105T203000Z
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: #5
+DTEND:20260316T203000Z
 LOCATION:En ligne
-DTSTART:20260105T173000Z
-SUMMARY:[UE 7] Finance d'entreprise
-UID:fe470c03-88c3-48f9-b788-85be1f39dc7c@fe47.org
+DTSTART:20260316T173000Z
+SUMMARY:#5 - MAE 25.208 FIS
+UID:583d6b0c-444c-45af-b1a9-a3d6b34280db@583d.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Thème: Innovation frugale\n📚 À préparer: Cas Kwid\n👨‍🏫 Intervenant: Christine Triomphe\n📍 Salle: 🖥️ En ligne\n📌 Type: TD (Distanciel)\nProgression: Séance 7 sur 10
-DTEND:20260106T191500Z
-LOCATION:En ligne
-DTSTART:20260106T171500Z
-SUMMARY:[UE 6] Projets\, Innovation & Supply Chain
-UID:d5dacc32-27f0-44bc-a5a1-7fdee12927ff@d5da.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: TD3 - Moyens de financement\n📚 À préparer: Cas Alizeo\n👨‍🏫 Intervenant: Stéphane Bellanger\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 4 sur 10
-DTEND:20251007T201500Z
-LOCATION:D5
-DTSTART:20251007T181500Z
-SUMMARY:[UE 3] Information comptable
-UID:e058635a-dc89-4def-adf0-fbeb64c5022e@e058.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Synthèse: Rentabilité/Solvabilité\n📚 À préparer: Cas TURCO\n👨‍🏫 Intervenant: Jérôme Caby\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 6 sur 10
-DTEND:20251216T211500Z
-LOCATION:D5
-DTSTART:20251216T191500Z
-SUMMARY:[UE 7] Finance d'entreprise
-UID:e591003e-6068-4143-8081-f38101b69db3@e591.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Droit de la concurrence\n👨‍🏫 Intervenant: Marianne Dournaux\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 12 sur 14
-DTEND:20260421T181500Z
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260303T211500Z
 LOCATION:A1
-DTSTART:20260421T161500Z
-SUMMARY:[UE 2] Droit des affaires
-UID:f8cc1677-a742-4b1b-9d91-54a5e1cebb02@f8cc.org
+DTSTART:20260303T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:7a0ff72b-2249-4d42-83a4-9745273ef5cf@7a0f.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Thème: TD2 - Actifs non courants\n📚 À préparer: Cas Autoloc\n👨‍🏫 Intervenant: Stéphane Bellanger\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 3 sur 10
-DTEND:20250930T201500Z
-LOCATION:D5
-DTSTART:20250930T181500Z
-SUMMARY:[UE 3] Information comptable
-UID:054a86d8-205e-4db0-8e14-11ed0c60b812@054a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Amphi 2 - Approfondissement/Synthèse\n👨‍🏫 Intervenant: Jérôme Caby\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 10 sur 10
-DTEND:20260120T211500Z
-LOCATION:D5
-DTSTART:20260120T191500Z
-SUMMARY:[UE 7] Finance d'entreprise
-UID:8e1dd4db-5459-45b5-bf17-8ffd6f563922@8e1d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Politique produit\n📚 À préparer: Cas Dyson\n👨‍🏫 Intervenant: J-L Brunstein & O. Sabri\n📍 Salle: A1\n📌 Type: TD\nProgression: Séance 5 sur 10
-DTEND:20260217T211500Z
-LOCATION:A1
-DTSTART:20260217T191500Z
-SUMMARY:[UE 5] Marketing
-UID:6a35deb3-e98b-4358-aa96-b6703db97244@6a35.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Amphi de Fermeture\n👨‍🏫 Intervenant: Stéphane Saussier\n📍 Salle: D6\n📌 Type: TD\nProgression: Séance 8 sur 8
-DTEND:20251104T191500Z
-LOCATION:D6
-DTSTART:20251104T171500Z
-SUMMARY:[UE 1] Environnement Économique
-UID:a1eae255-ed74-47b0-ba94-097019191e65@a1ea.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Thème: Bilan fonctionnel & Solvabilité\n📚 À préparer: Cas CAMBO\n👨‍🏫 Intervenant: Jérôme Caby\n📍 Salle: D5\n📌 Type: TD\nProgression: Séance 3 sur 10
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: 
 DTEND:20251125T211500Z
 LOCATION:D5
 DTSTART:20251125T191500Z
-SUMMARY:[UE 7] Finance d'entreprise
-UID:f5e98d6d-b4c8-4830-a136-f154bfa63545@f5e9.org
+SUMMARY:MAE 25.208 FIS
+UID:62c0d341-bfb9-4831-8975-4dd688a87647@62c0.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Thème: Design Thinking\n📚 À préparer: Cas IDEO (Vidéo)\n👨‍🏫 Intervenant: Christine Triomphe\n📍 Salle: 🖥️ En ligne\n📌 Type: Amphi / Conférence (Distanciel)\nProgression: Séance 9 sur 10
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: #3
+DTEND:20250918T193000Z
+LOCATION:En ligne
+DTSTART:20250918T163000Z
+SUMMARY:#3 - MAE 25.208 FIS
+UID:8b74fa18-a53f-4edf-8cbf-4c3967f355ed@8b74.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260512T201500Z
+LOCATION:A1
+DTSTART:20260512T161500Z
+SUMMARY:MAE 25.208 FIS
+UID:f7a2565d-5ad0-4b43-b5e3-aaf49ca9907d@f7a2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260324T211500Z
+LOCATION:A1
+DTSTART:20260324T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:ee7e51d4-0c00-40ab-bd26-1ae53e63a997@ee7e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: 
+DTEND:20251118T191500Z
+LOCATION:D5
+DTSTART:20251118T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:5ac5dc0a-56a2-4893-aebd-14f40d0f93a6@5ac5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: #6
+DTEND:20251202T191500Z
+LOCATION:A1
+DTSTART:20251202T171500Z
+SUMMARY:#6 - MAE 25.208 FIS
+UID:a563cfbf-99df-44ca-ae4e-370b0706970d@a563.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A4\nUE: #1
+DTEND:20251014T181500Z
+LOCATION:A4
+DTSTART:20251014T161500Z
+SUMMARY:#1 - MAE 25.208 FIS
+UID:4e8948d2-31c8-4a4f-9f06-77f5f850b749@4e89.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: 
+DTEND:20260113T191500Z
+LOCATION:D5
+DTSTART:20260113T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:c1913ec7-912c-47ac-9831-03bb641be082@c191.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: #1
+DTEND:20250930T181500Z
+LOCATION:D5
+DTSTART:20250930T161500Z
+SUMMARY:#1 - MAE 25.208 FIS
+UID:163756a7-a3fe-46d6-9c97-4abe721fb1fd@1637.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260324T191500Z
+LOCATION:A1
+DTSTART:20260324T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:7236cdaa-3618-4ead-9c29-3ced740e4fec@7236.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: #2
+DTEND:20260119T203000Z
+LOCATION:En ligne
+DTSTART:20260119T173000Z
+SUMMARY:#2 - MAE 25.208 FIS
+UID:3c70724d-e1ca-41da-9a78-0b7f62f544ab@3c70.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: 
+DTEND:20260106T191500Z
+LOCATION:En ligne
+DTSTART:20260106T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:d70dca66-76a1-4462-b050-88e122b2b6d7@d70d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: #7
+DTEND:20251117T203000Z
+LOCATION:En ligne
+DTSTART:20251117T173000Z
+SUMMARY:#7 - MAE 25.208 FIS
+UID:42b98d1a-80e9-4d5c-a959-b928690ebb16@42b9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260210T211500Z
+LOCATION:A1
+DTSTART:20260210T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:c436a025-4be3-4654-9f67-0ec289fe0a17@c436.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: 
+DTEND:20260106T211500Z
+LOCATION:En ligne
+DTSTART:20260106T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:c7e4cb26-054f-4b21-928b-022da73c704a@c7e4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: #1
+DTEND:20250923T181500Z
+LOCATION:D5
+DTSTART:20250923T161500Z
+SUMMARY:#1 - MAE 25.208 FIS
+UID:d27a37c6-6e3a-4c8b-a921-1d7d62b3e3ea@d27a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260310T211500Z
+LOCATION:A1
+DTSTART:20260310T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:1aa9de35-9cf5-463f-9d04-8e13ef87d9de@1aa9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260203T191500Z
+LOCATION:A1
+DTSTART:20260203T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:3f60572f-22da-4e4c-9f7c-fa61c6cc9aed@3f60.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260317T211500Z
+LOCATION:A1
+DTSTART:20260317T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:626e5134-0dd7-40fb-9d70-96c4478e343c@626e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: 
+DTEND:20251216T211500Z
+LOCATION:D5
+DTSTART:20251216T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:3342d11e-c6d2-4eac-af80-3e45ecbfcf2d@3342.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: Maison des Examens (Arcueil)\nUE: #6
+DTEND:20260131T110000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20260131T080000Z
+SUMMARY:[EXAMEN] #6 - MAE 25.208 FIS
+UID:6e9655f7-fda2-4c5f-9e1b-ec44e9faad73@6e96.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: #7
+DTEND:20260126T203000Z
+LOCATION:En ligne
+DTSTART:20260126T173000Z
+SUMMARY:#7 - MAE 25.208 FIS
+UID:4e68db91-61ea-44d8-8140-d67f396a6679@4e68.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D6\nUE: #3
+DTEND:20251104T211500Z
+LOCATION:D6
+DTSTART:20251104T191500Z
+SUMMARY:#3 - MAE 25.208 FIS
+UID:c26b77bd-1724-426b-993b-c61b47ec1715@c26b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: #1
+DTEND:20251028T191500Z
+LOCATION:D5
+DTSTART:20251028T171500Z
+SUMMARY:#1 - MAE 25.208 FIS
+UID:10b0d60a-6c29-4661-b6a3-c41f323098ac@10b0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D6\nUE: #1
+DTEND:20251104T191500Z
+LOCATION:D6
+DTSTART:20251104T171500Z
+SUMMARY:#1 - MAE 25.208 FIS
+UID:2cc234c4-0d36-440a-a860-1f47e528a684@2cc2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260407T201500Z
+LOCATION:A1
+DTSTART:20260407T181500Z
+SUMMARY:MAE 25.208 FIS
+UID:fac3c383-543c-48f0-9143-b227194b25b1@fac3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: #3
+DTEND:20251110T211500Z
+LOCATION:En ligne
+DTSTART:20251110T191500Z
+SUMMARY:#3 - MAE 25.208 FIS
+UID:2d8f0a94-1728-4fc8-abca-c553bb86a656@2d8f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: 
+DTEND:20251216T191500Z
+LOCATION:D5
+DTSTART:20251216T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:b7998869-48ac-4600-96e4-ec5837f86fd1@b799.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: #6
+DTEND:20251124T210000Z
+LOCATION:En ligne
+DTSTART:20251124T180000Z
+SUMMARY:#6 - MAE 25.208 FIS
+UID:80caecc5-9067-4e52-af95-6a400e0ceb99@80ca.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260217T211500Z
+LOCATION:A1
+DTSTART:20260217T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:16f03bce-6204-4821-a6da-e169faf6b0e0@16f0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260303T191500Z
+LOCATION:A1
+DTSTART:20260303T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:3b47ed59-460f-4238-b7fe-db70989dc322@3b47.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: #7
+DTEND:20260105T203000Z
+LOCATION:En ligne
+DTSTART:20260105T173000Z
+SUMMARY:#7 - MAE 25.208 FIS
+UID:df0e4562-0d03-48de-a8c0-25a15a632d97@df0e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260310T191500Z
+LOCATION:A1
+DTSTART:20260310T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:4740bc01-6b88-428d-b87b-d2df5e9cfb23@4740.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: #2
+DTEND:20260330T193000Z
+LOCATION:En ligne
+DTSTART:20260330T163000Z
+SUMMARY:#2 - MAE 25.208 FIS
+UID:49f6c827-7044-44fe-9361-0973299bc930@49f6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: #1
+DTEND:20250915T193000Z
+LOCATION:En ligne
+DTSTART:20250915T163000Z
+SUMMARY:#1 - MAE 25.208 FIS
+UID:bbb307ee-4098-4367-9416-8f863491937d@bbb3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: 
+DTEND:20251209T191500Z
+LOCATION:D5
+DTSTART:20251209T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:593a025c-7828-4c7e-b8e1-836ba10dfed4@593a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: #3
+DTEND:20251103T203000Z
+LOCATION:En ligne
+DTSTART:20251103T173000Z
+SUMMARY:#3 - MAE 25.208 FIS
+UID:f1cb52db-cfa4-4538-b2fc-9bad3e3f2057@f1cb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: Maison des Examens (Arcueil)\nUE: #2
+DTEND:20260425T100000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20260425T070000Z
+SUMMARY:[EXAMEN] #2 - MAE 25.208 FIS
+UID:c6f951fe-651b-4ec2-adb4-17c814d815b2@c6f9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A4\nUE: #3
+DTEND:20251014T201500Z
+LOCATION:A4
+DTSTART:20251014T181500Z
+SUMMARY:#3 - MAE 25.208 FIS
+UID:2f6d7aa7-8629-4ae9-8a40-0198471cd464@2f6d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: #1
+DTEND:20251021T181500Z
+LOCATION:D5
+DTSTART:20251021T161500Z
+SUMMARY:#1 - MAE 25.208 FIS
+UID:b0b56723-b4a1-42d6-bcec-493c50033d58@b0b5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A2\nUE: #2
+DTEND:20260127T191500Z
+LOCATION:A2
+DTSTART:20260127T171500Z
+SUMMARY:#2 - MAE 25.208 FIS
+UID:e482f371-ed28-42a1-a8c1-d9734dfa29a7@e482.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: Maison des Examens (Arcueil)\nUE: #4
+DTEND:20260606T100000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20260606T070000Z
+SUMMARY:[EXAMEN] #4 - MAE 25.208 FIS
+UID:db1638b5-cfe7-4507-8012-da19e1db7649@db16.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: 
+DTEND:20260120T211500Z
+LOCATION:D5
+DTSTART:20260120T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:fea0ab2d-4995-4e10-b909-83624d824a55@fea0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260224T211500Z
+LOCATION:A1
+DTSTART:20260224T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:9cd29384-6333-41b9-ae9e-19203e8def61@9cd2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: #3
+DTEND:20250923T201500Z
+LOCATION:D5
+DTSTART:20250923T181500Z
+SUMMARY:#3 - MAE 25.208 FIS
+UID:241daf18-3d35-4716-a457-9fd9772da19c@241d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: 
+DTEND:20260113T211500Z
+LOCATION:D5
+DTSTART:20260113T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:ee357bf5-ed37-4f2c-b0db-565e5f770953@ee35.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260203T211500Z
+LOCATION:A1
+DTSTART:20260203T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:4c55bf7f-205e-45c6-a535-182f05b979d6@4c55.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: #6
 DTEND:20260115T210000Z
 LOCATION:En ligne
 DTSTART:20260115T180000Z
-SUMMARY:[UE 6] Projets\, Innovation & Supply Chain
-UID:d524ec5b-7e65-4fff-99d1-c00f534b76f0@d524.org
+SUMMARY:#6 - MAE 25.208 FIS
+UID:5fd11340-74d1-4e28-b3c3-5f6f0dfd1cf4@5fd1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: #1
+DTEND:20251007T181500Z
+LOCATION:D5
+DTSTART:20251007T161500Z
+SUMMARY:#1 - MAE 25.208 FIS
+UID:ac14f77e-af25-4882-8dc8-d55463a781e9@ac14.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D3\nUE: 
+DTEND:20260127T211500Z
+LOCATION:D3
+DTSTART:20260127T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:032ac870-d81b-43f4-8648-981f399d91f1@032a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: 
+DTEND:20251209T211500Z
+LOCATION:D5
+DTSTART:20251209T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:99a938be-ab07-4aa6-9e9b-263349790af6@99a9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260317T191500Z
+LOCATION:A1
+DTSTART:20260317T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:e2a1d5e0-6ff9-460e-83fa-b94c835e9c61@e2a1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: En ligne\nUE: #1
+DTEND:20251110T191500Z
+LOCATION:En ligne
+DTSTART:20251110T171500Z
+SUMMARY:#1 - MAE 25.208 FIS
+UID:abdb78be-1141-4e0e-9efe-3b94888b3af2@abdb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: 
+DTEND:20260120T191500Z
+LOCATION:D5
+DTSTART:20260120T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:5a8d7f11-30f8-4e81-8081-7d2079ceacf4@5a8d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260519T201500Z
+LOCATION:A1
+DTSTART:20260519T161500Z
+SUMMARY:MAE 25.208 FIS
+UID:b1b25bbe-f1c8-4ac9-8c1b-2509950f7eab@b1b2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: Maison des Examens (Arcueil)\nUE: #5
+DTEND:20260328T110000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20260328T080000Z
+SUMMARY:[EXAMEN] #5 - MAE 25.208 FIS
+UID:f50f38dc-1fd8-437e-8303-7e16983a297d@f50f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: 
+DTEND:20251118T211500Z
+LOCATION:D5
+DTSTART:20251118T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:2d342e7b-80b9-40f6-810c-071e85ff08b4@2d34.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260331T201500Z
+LOCATION:A1
+DTSTART:20260331T181500Z
+SUMMARY:MAE 25.208 FIS
+UID:c2cfd5dd-6119-46f7-8e3a-10f80e5906af@c2cf.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: #3
+DTEND:20251007T201500Z
+LOCATION:D5
+DTSTART:20251007T181500Z
+SUMMARY:#3 - MAE 25.208 FIS
+UID:ba07c06b-3c3c-41fd-9b9b-0cbea0cbc04f@ba07.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: Maison des Examens (Arcueil)\nUE: #1
+DTEND:20251122T110000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20251122T080000Z
+SUMMARY:[EXAMEN] #1 - MAE 25.208 FIS
+UID:5449acea-54d9-48df-ad2e-d754bd5dde0d@5449.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: Maison des Examens (Arcueil)\nUE: #7
+DTEND:20260131T160000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20260131T130000Z
+SUMMARY:[EXAMEN] #7 - MAE 25.208 FIS
+UID:af6f31cd-c387-4c49-9840-ce096bb8d1ee@af6f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: #3
+DTEND:20250930T201500Z
+LOCATION:D5
+DTSTART:20250930T181500Z
+SUMMARY:#3 - MAE 25.208 FIS
+UID:12ed63eb-6317-4653-b2bc-27fda16b7c34@12ed.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260421T201500Z
+LOCATION:A1
+DTSTART:20260421T161500Z
+SUMMARY:MAE 25.208 FIS
+UID:baa18a3a-ed67-4ce0-8f80-d4c9400162b3@baa1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: D5\nUE: #3
+DTEND:20251021T201500Z
+LOCATION:D5
+DTSTART:20251021T181500Z
+SUMMARY:#3 - MAE 25.208 FIS
+UID:6d5ca5fb-de78-4420-89a0-a5ab572b8714@6d5c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cours IAE\nSalle: A1\nUE: 
+DTEND:20260217T191500Z
+LOCATION:A1
+DTSTART:20260217T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:ed01b7bf-2ebc-4ba7-9e29-c30ec229684f@ed01.org
 END:VEVENT
 END:VCALENDAR
