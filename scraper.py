@@ -237,7 +237,7 @@ def main():
         cal.events.add(e)
 
     # Sauvegarde
-    output_filename = 'planning_enrichi.ics'
+    output_filename = 'planning.ics'
     with open(output_filename, 'w', encoding='utf-8') as f:
         f.writelines(cal.serialize_iter())
     
