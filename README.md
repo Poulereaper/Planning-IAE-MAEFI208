@@ -17,7 +17,7 @@ https://raw.githubusercontent.com/Poulereaper/Planning-IAE-MAEFI208/refs/heads/m
 
 
 ### Via QR Code
-Scannez ce code pour ajouter directement le calendrier à votre calendrier :
+Scannez ce code pour ajouter directement le calendrier à votre calendrier (il faudra déverrouiller votre téléphone avant de scanner ce QR Code) :
 
 <img width="490" height="490" alt="image" src="planningicsIAE-qr-code.png" />
 
