@@ -2,684 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Olivier de La Villarmois\n----------\nObjectifs : Coûts complets\, CVP\, budgets\, tableaux de bord.\nÉvaluation : Présentation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
-DTEND:20261128T110000Z
-LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
-DTSTART:20261128T080000Z
-SUMMARY:[EXAMEN] UE 9 - Contrôle de gestion
-UID:36459c73-8f67-43b6-8c74-7d227fb5823a@3645.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20270112T191500Z
-LOCATION:2.2
-DTSTART:20270112T171500Z
-SUMMARY:MAE 25.208 FIS
-UID:c21b1f31-c145-4b33-b53b-cc70b08e524c@c21b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D5\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
-DTEND:20260224T211500Z
-LOCATION:D5
-DTSTART:20260224T191500Z
-SUMMARY:UE 5 - Marketing
-UID:faa96e60-4ea8-4424-9dfc-8374e48eeb0a@faa9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D5\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
-DTEND:20250923T201500Z
-LOCATION:D5
-DTSTART:20250923T181500Z
-SUMMARY:UE 3 - Information comptable
-UID:d88ae1c1-eb98-484e-b4de-507d8046a51c@d88a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261020T181500Z
-LOCATION:2.2
-DTSTART:20261020T161500Z
-SUMMARY:MAE 25.208 FIS
-UID:cf8870fd-8471-4d9d-910b-bac448c7aabf@cf88.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: En ligne\nIntervenant: Florent Noël\n----------\nObjectifs : Stratégie RH\, mobilisation des salariés\, GPEC.\nÉvaluation : Préparation cas (50%)\, Examen final (50%).
-DTEND:20260601T193000Z
-LOCATION:En ligne
-DTSTART:20260601T163000Z
-SUMMARY:UE 4 - Gestion des Ressources Humaines
-UID:b75f303b-26df-41be-a4f4-65ad49055079@b75f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: A1\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
-DTEND:20260310T211500Z
-LOCATION:A1
-DTSTART:20260310T191500Z
-SUMMARY:UE 5 - Marketing
-UID:e6d940a0-1bf4-4055-a812-081254d1ce61@e6d9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: Réalisé\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
-DTEND:20251209T211500Z
-LOCATION:Réalisé
-DTSTART:20251209T191500Z
-SUMMARY:UE 7 - Finance d'entreprise
-UID:1d221221-7606-4291-83da-b0ddddef6b25@1d22.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261110T191500Z
-LOCATION:2.2
-DTSTART:20261110T171500Z
-SUMMARY:MAE 25.208 FIS
-UID:bf5caf82-5c60-46e6-9124-0df04d9c7a61@bf5c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20270126T211500Z
-LOCATION:2.2
-DTSTART:20270126T191500Z
-SUMMARY:MAE 25.208 FIS
-UID:369b76b0-28a7-4532-83af-e03331d310fc@369b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: A1\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
-DTEND:20260203T191500Z
-LOCATION:A1
-DTSTART:20260203T171500Z
-SUMMARY:UE 2 - Droit des affaires
-UID:1cc1a971-485b-4f8f-9658-59a60df62114@1cc1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261013T181500Z
-LOCATION:2.2
-DTSTART:20261013T161500Z
-SUMMARY:MAE 25.208 FIS
-UID:5f2d5a26-2ccc-4cbd-ba1b-bc93801bac42@5f2d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: Réalisé\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
-DTEND:20251125T211500Z
-LOCATION:Réalisé
-DTSTART:20251125T191500Z
-SUMMARY:UE 7 - Finance d'entreprise
-UID:06187ab0-5ede-4c4b-b3e2-1608122fa104@0618.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: En ligne\nIntervenant: Florent Noël\n----------\nObjectifs : Stratégie RH\, mobilisation des salariés\, GPEC.\nÉvaluation : Préparation cas (50%)\, Examen final (50%).
-DTEND:20260409T193000Z
-LOCATION:En ligne
-DTSTART:20260409T163000Z
-SUMMARY:[OUVERTURE] UE 4 - Gestion des Ressources Humaines
-UID:287d479a-7504-48ff-add5-f572f93b388b@287d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D5\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
-DTEND:20260224T191500Z
-LOCATION:D5
-DTSTART:20260224T171500Z
-SUMMARY:UE 2 - Droit des affaires
-UID:233b26dd-842e-4b2f-a714-fad862b98128@233b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: En ligne\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
-DTEND:20260108T203000Z
-LOCATION:En ligne
-DTSTART:20260108T173000Z
-SUMMARY:[OUVERTURE] UE 5 - Marketing
-UID:f6c12ca2-8eb8-44ee-9498-3646eb1840fd@f6c1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D2\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
-DTEND:20260317T211500Z
-LOCATION:D2
-DTSTART:20260317T191500Z
-SUMMARY:UE 5 - Marketing
-UID:adc18524-38d1-4c0b-8d37-adc9f92b44d3@adc1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D5\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
-DTEND:20251028T191500Z
-LOCATION:D5
-DTSTART:20251028T171500Z
-SUMMARY:UE 1 - Environnement Économique de l'Entreprise
-UID:a58c99ba-9674-4a27-ad83-1bf8e92f9647@a58c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20260922T181500Z
-LOCATION:2.2
-DTSTART:20260922T161500Z
-SUMMARY:MAE 25.208 FIS
-UID:dcee3aae-6e96-4218-8b67-44e26720524d@dcee.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261020T201500Z
-LOCATION:2.2
-DTSTART:20261020T181500Z
-SUMMARY:MAE 25.208 FIS
-UID:44fed53f-afc4-4e09-8fbb-49990a6c92a3@44fe.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261124T191500Z
-LOCATION:2.2
-DTSTART:20261124T171500Z
-SUMMARY:MAE 25.208 FIS
-UID:bb716443-3994-45b1-be43-75d71678d7fb@bb71.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D5\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
-DTEND:20251007T201500Z
-LOCATION:D5
-DTSTART:20251007T181500Z
-SUMMARY:UE 3 - Information comptable
-UID:64d23d59-92b7-48df-932e-92186fe4a8b5@64d2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: Réalisé\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
-DTEND:20260120T211500Z
-LOCATION:Réalisé
-DTSTART:20260120T191500Z
-SUMMARY:UE 7 - Finance d'entreprise
-UID:d485c169-c308-4975-b5a5-122a88c86662@d485.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: Réalisé\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
-DTEND:20260120T191500Z
-LOCATION:Réalisé
-DTSTART:20260120T171500Z
-SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
-UID:8c926898-9b60-4cd6-b989-f44d48d21c52@8c92.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: En ligne\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
-DTEND:20260106T191500Z
-LOCATION:En ligne
-DTSTART:20260106T171500Z
-SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
-UID:9358fc09-a705-47f1-af26-b69bbb6ebb8a@9358.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: En ligne\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
-DTEND:20251110T211500Z
-LOCATION:En ligne
-DTSTART:20251110T191500Z
-SUMMARY:UE 3 - Information comptable
-UID:dec5f068-e665-422c-a1f2-fee4a15a80bb@dec5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: Réalisé\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
-DTEND:20260407T181500Z
-LOCATION:Réalisé
-DTSTART:20260407T161500Z
-SUMMARY:UE 2 - Droit des affaires
-UID:dac379dd-ee29-4173-b646-a7a0c9986e71@dac3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: En ligne\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
-DTEND:20260317T191500Z
-LOCATION:En ligne
-DTSTART:20260317T171500Z
-SUMMARY:UE 2 - Droit des affaires
-UID:03985b24-db4a-414b-bd99-c9e08935216e@0398.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D3
-DTEND:20260127T211500Z
-LOCATION:D3
-DTSTART:20260127T191500Z
-SUMMARY:MAE 25.208 FIS
-UID:46a25732-5511-4a3c-96cc-0c2106a12f8e@46a2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261027T211500Z
-LOCATION:2.2
-DTSTART:20261027T191500Z
-SUMMARY:MAE 25.208 FIS
-UID:dd1d9397-ddcf-4c27-83af-06f24e16e2ff@dd1d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D5
-DTEND:20250916T181500Z
-LOCATION:D5
-DTSTART:20250916T161500Z
-SUMMARY:MAE 25.208 FIS
-UID:93749d1d-029b-407b-8aaa-bf7505cb6f60@9374.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: En ligne\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
-DTEND:20251103T203000Z
-LOCATION:En ligne
-DTSTART:20251103T173000Z
-SUMMARY:UE 3 - Information comptable
-UID:d3582640-709c-4da5-ac67-ed77b1327926@d358.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Philippe Eynaud & Jean-Loup Richet\n----------\nObjectifs : Gouvernance\, urbanisation\, alignement stratégique des SI.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
-DTEND:20270206T110000Z
-LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
-DTSTART:20270206T080000Z
-SUMMARY:[EXAMEN] UE 8 - Management des systèmes d'information
-UID:630a97ba-eabe-45f9-ad87-12b807ea4dd9@630a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: A1\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
-DTEND:20260217T211500Z
-LOCATION:A1
-DTSTART:20260217T191500Z
-SUMMARY:UE 5 - Marketing
-UID:ce1c01db-b0d6-41b5-b0c0-4a506a785507@ce1c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
-DTEND:20260425T100000Z
-LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
-DTSTART:20260425T070000Z
-SUMMARY:[EXAMEN] UE 2 - Droit des affaires
-UID:b0f6cef5-e310-4749-af3d-b06cd5f4de65@b0f6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
-DTEND:20260131T110000Z
-LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
-DTSTART:20260131T080000Z
-SUMMARY:[EXAMEN] UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
-UID:11c4075b-4d49-40ec-bd03-339ea19690c5@11c4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20270126T191500Z
-LOCATION:2.2
-DTSTART:20270126T171500Z
-SUMMARY:MAE 25.208 FIS
-UID:18792dbd-3c3d-4256-b118-f9cf6f7e9dae@1879.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D5\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
-DTEND:20251021T201500Z
-LOCATION:D5
-DTSTART:20251021T181500Z
-SUMMARY:UE 3 - Information comptable
-UID:427696f8-bd03-4970-9b89-dad96b72e7b4@4276.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
-DTEND:20260131T160000Z
-LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
-DTSTART:20260131T130000Z
-SUMMARY:[EXAMEN] UE 7 - Finance d'entreprise
-UID:d900e48d-9443-4bbe-b862-ec2f0ef216f2@d900.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D5\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
-DTEND:20251007T181500Z
-LOCATION:D5
-DTSTART:20251007T161500Z
-SUMMARY:UE 1 - Environnement Économique de l'Entreprise
-UID:4db8efd6-ba70-4a22-b2ac-ae82f26afb95@4db8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261208T211500Z
-LOCATION:2.2
-DTSTART:20261208T191500Z
-SUMMARY:MAE 25.208 FIS
-UID:ea08d17e-ff8a-4d04-8775-cb561fb379a3@ea08.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: Réalisé\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
-DTEND:20260331T181500Z
-LOCATION:Réalisé
-DTSTART:20260331T161500Z
-SUMMARY:UE 2 - Droit des affaires
-UID:c0beaac7-63d6-4148-a2a5-232393100ee1@c0be.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20270105T191500Z
-LOCATION:2.2
-DTSTART:20270105T171500Z
-SUMMARY:MAE 25.208 FIS
-UID:a3d10da1-c3d8-4da7-afe1-21f171fccc0c@a3d1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: En ligne\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
-DTEND:20260105T203000Z
-LOCATION:En ligne
-DTSTART:20260105T173000Z
-SUMMARY:UE 7 - Finance d'entreprise
-UID:0b3b6fb3-6fb0-488b-8ace-9194a75157b4@0b3b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: RDJ.1\nIntervenant: Florent Noël\n----------\nObjectifs : Stratégie RH\, mobilisation des salariés\, GPEC.\nÉvaluation : Préparation cas (50%)\, Examen final (50%).
-DTEND:20260526T201500Z
-LOCATION:RDJ.1
-DTSTART:20260526T161500Z
-SUMMARY:UE 4 - Gestion des Ressources Humaines
-UID:71daca00-8483-4d8b-b48b-01949034556b@71da.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: Réalisé\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
-DTEND:20251118T211500Z
-LOCATION:Réalisé
-DTSTART:20251118T191500Z
-SUMMARY:UE 7 - Finance d'entreprise
-UID:0cc929ac-7776-4cf3-9cf6-319844684cc9@0cc9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: Réalisé\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
-DTEND:20260113T211500Z
-LOCATION:Réalisé
-DTSTART:20260113T191500Z
-SUMMARY:UE 7 - Finance d'entreprise
-UID:65285593-1d0b-4f54-8c5b-e0351d4e8592@6528.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261027T191500Z
-LOCATION:2.2
-DTSTART:20261027T171500Z
-SUMMARY:MAE 25.208 FIS
-UID:dcc3448c-2a31-47a8-98dd-c8deba803c60@dcc3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
-DTEND:20251122T110000Z
-LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
-DTSTART:20251122T080000Z
-SUMMARY:[EXAMEN] UE 1 - Environnement Économique de l'Entreprise
-UID:b1264df5-a12a-41de-8d46-acde7bc3a4a3@b126.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: A1\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
-DTEND:20251202T211500Z
-LOCATION:A1
-DTSTART:20251202T191500Z
-SUMMARY:UE 7 - Finance d'entreprise
-UID:cbc63915-4dc0-4a1e-b396-e8dffb5cf471@cbc6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20270112T211500Z
-LOCATION:2.2
-DTSTART:20270112T191500Z
-SUMMARY:MAE 25.208 FIS
-UID:2c9cc179-3cca-4be3-8f93-a5bde48c4056@2c9c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: En ligne\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
-DTEND:20260119T203000Z
-LOCATION:En ligne
-DTSTART:20260119T173000Z
-SUMMARY:[OUVERTURE] UE 2 - Droit des affaires
-UID:c20a3032-8d9d-495e-ab2b-595e59caf180@c20a.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Salle: D5\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
 DTEND:20251028T211500Z
 LOCATION:D5
 DTSTART:20251028T191500Z
 SUMMARY:UE 3 - Information comptable
-UID:dc1502ac-63de-4d7e-a276-98bd3741d41e@dc15.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: A1\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
-DTEND:20260310T191500Z
-LOCATION:A1
-DTSTART:20260310T171500Z
-SUMMARY:UE 2 - Droit des affaires
-UID:72328d2c-9aaf-4627-88b4-799cf09cdc17@7232.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: A1\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
-DTEND:20260217T191500Z
-LOCATION:A1
-DTSTART:20260217T171500Z
-SUMMARY:UE 2 - Droit des affaires
-UID:1cc57865-ba99-4a00-897b-b47d03ee0c75@1cc5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261006T181500Z
-LOCATION:2.2
-DTSTART:20261006T161500Z
-SUMMARY:MAE 25.208 FIS
-UID:b35984a0-fc62-4615-ae74-8109bcb63dd5@b359.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: En ligne\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
-DTEND:20251110T191500Z
-LOCATION:En ligne
-DTSTART:20251110T171500Z
-SUMMARY:UE 1 - Environnement Économique de l'Entreprise
-UID:58ec3e5a-30f4-4921-b5c6-0672ceaa5d09@58ec.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Nathalie Raulet-Croset\n----------\nObjectifs : Comportement organisationnel\, leadership\, changement.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
-DTEND:20261128T160000Z
-LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
-DTSTART:20261128T130000Z
-SUMMARY:[EXAMEN] UE 10 - Organisations et comportements
-UID:1550638a-3a34-4fe3-81ab-5fa3b69855b6@1550.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: En ligne\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
-DTEND:20251113T210000Z
-LOCATION:En ligne
-DTSTART:20251113T180000Z
-SUMMARY:UE 1 - Environnement Économique de l'Entreprise
-UID:d38e915d-bf0a-4dcc-9ad9-0eb05359a2bd@d38e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D5\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
-DTEND:20250930T181500Z
-LOCATION:D5
-DTSTART:20250930T161500Z
-SUMMARY:UE 1 - Environnement Économique de l'Entreprise
-UID:06deb69f-5648-4f77-bfc6-b16f21dc6aaa@06de.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: En ligne\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
-DTEND:20260115T210000Z
-LOCATION:En ligne
-DTSTART:20260115T180000Z
-SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
-UID:07f2c45b-c92c-4ab5-965f-96d84e9e6051@07f2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: En ligne\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
-DTEND:20260319T203000Z
-LOCATION:En ligne
-DTSTART:20260319T173000Z
-SUMMARY:UE 5 - Marketing
-UID:e6e17bec-0e55-4539-8f7a-8a4586b1b7b9@e6e1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261124T211500Z
-LOCATION:2.2
-DTSTART:20261124T191500Z
-SUMMARY:MAE 25.208 FIS
-UID:b56f5184-b597-4b73-a146-c58e34d8d3e5@b56f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D6\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
-DTEND:20251104T191500Z
-LOCATION:D6
-DTSTART:20251104T171500Z
-SUMMARY:UE 1 - Environnement Économique de l'Entreprise
-UID:a24b1025-10ab-40c8-b2e6-40385c8f2fb8@a24b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: Réalisé\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
-DTEND:20251118T191500Z
-LOCATION:Réalisé
-DTSTART:20251118T171500Z
-SUMMARY:[OUVERTURE] UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
-UID:5da03045-cc4b-473e-82df-64600f842fe7@5da0.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D5\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
-DTEND:20260303T191500Z
-LOCATION:D5
-DTSTART:20260303T171500Z
-SUMMARY:UE 2 - Droit des affaires
-UID:2b6812e5-3f65-48fe-9964-d859e7728ae3@2b68.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: AMPHITHEATRE
-DTEND:20260701T180000Z
-LOCATION:AMPHITHEATRE
-DTSTART:20260701T160000Z
-SUMMARY:MAE 25.208 FIS
-UID:8142b2a2-e14d-46c1-bec7-69df842bdc54@8142.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20270119T211500Z
-LOCATION:2.2
-DTSTART:20270119T191500Z
-SUMMARY:MAE 25.208 FIS
-UID:cc85092a-a855-423e-ad46-2ac70d3bbec4@cc85.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261103T191500Z
-LOCATION:2.2
-DTSTART:20261103T171500Z
-SUMMARY:MAE 25.208 FIS
-UID:4476c718-62b6-4695-be32-b0b00cfabcf8@4476.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Florent Noël\n----------\nObjectifs : Stratégie RH\, mobilisation des salariés\, GPEC.\nÉvaluation : Préparation cas (50%)\, Examen final (50%).
-DTEND:20260606T100000Z
-LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
-DTSTART:20260606T070000Z
-SUMMARY:[EXAMEN] UE 4 - Gestion des Ressources Humaines
-UID:2290d2b4-300d-4490-a705-78d63ae6a4b0@2290.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: Réalisé\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
-DTEND:20251209T191500Z
-LOCATION:Réalisé
-DTSTART:20251209T171500Z
-SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
-UID:b0851a28-3ce2-4de4-85a9-275eabae94ec@b085.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261215T211500Z
-LOCATION:2.2
-DTSTART:20261215T191500Z
-SUMMARY:MAE 25.208 FIS
-UID:db228c66-c890-496f-b597-53af860423da@db22.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D5\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
-DTEND:20251021T181500Z
-LOCATION:D5
-DTSTART:20251021T161500Z
-SUMMARY:UE 1 - Environnement Économique de l'Entreprise
-UID:506165bd-1b50-4c61-b758-c37eb1726e9f@5061.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261201T191500Z
-LOCATION:2.2
-DTSTART:20261201T171500Z
-SUMMARY:MAE 25.208 FIS
-UID:4d86cfab-e6c6-4e3c-ab6e-fa3180f8b0d0@4d86.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20270105T211500Z
-LOCATION:2.2
-DTSTART:20270105T191500Z
-SUMMARY:MAE 25.208 FIS
-UID:898b3a15-4d86-49ab-bad7-a6ee4440d9f9@898b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: En ligne\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
-DTEND:20251117T203000Z
-LOCATION:En ligne
-DTSTART:20251117T173000Z
-SUMMARY:[OUVERTURE] UE 7 - Finance d'entreprise
-UID:ebc40359-7d17-4de0-bcb7-a4523e9f639b@ebc4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: RDJ.1\nIntervenant: Florent Noël\n----------\nObjectifs : Stratégie RH\, mobilisation des salariés\, GPEC.\nÉvaluation : Préparation cas (50%)\, Examen final (50%).
-DTEND:20260505T201500Z
-LOCATION:RDJ.1
-DTSTART:20260505T161500Z
-SUMMARY:UE 4 - Gestion des Ressources Humaines
-UID:382a1457-54a9-4935-b11f-3a1822a46f0b@382a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: En ligne\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
-DTEND:20260126T203000Z
-LOCATION:En ligne
-DTSTART:20260126T173000Z
-SUMMARY:UE 7 - Finance d'entreprise
-UID:0df0c519-ce66-4285-a21f-9d21280b74cf@0df0.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: En ligne\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
-DTEND:20250915T193000Z
-LOCATION:En ligne
-DTSTART:20250915T163000Z
-SUMMARY:[OUVERTURE] UE 1 - Environnement Économique de l'Entreprise
-UID:ed65ff5e-b1bf-422f-9b04-ce9356990e57@ed65.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: En ligne\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
-DTEND:20251124T210000Z
-LOCATION:En ligne
-DTSTART:20251124T180000Z
-SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
-UID:f422b372-9814-45ad-b248-11fcf525198a@f422.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
-DTEND:20251122T160000Z
-LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
-DTSTART:20251122T130000Z
-SUMMARY:[EXAMEN] UE 3 - Information comptable
-UID:ef394383-acf9-466c-8ad8-ad58377dc43d@ef39.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20270119T191500Z
-LOCATION:2.2
-DTSTART:20270119T171500Z
-SUMMARY:MAE 25.208 FIS
-UID:fdb4f392-0f09-4e0c-83e7-c13bcd6e8f4f@fdb4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: RDJ.1\nIntervenant: Florent Noël\n----------\nObjectifs : Stratégie RH\, mobilisation des salariés\, GPEC.\nÉvaluation : Préparation cas (50%)\, Examen final (50%).
-DTEND:20260512T201500Z
-LOCATION:RDJ.1
-DTSTART:20260512T161500Z
-SUMMARY:UE 4 - Gestion des Ressources Humaines
-UID:6e7b620e-6642-4ddd-b882-a6e748e9f4e0@6e7b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: Réalisé\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
-DTEND:20260113T191500Z
-LOCATION:Réalisé
-DTSTART:20260113T171500Z
-SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
-UID:5a3ed369-8424-4dcb-b1dd-b0ffb25a734d@5a3e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Didier Chabaud & Pierre Garaudel\n----------\nObjectifs : Analyse concurrentielle\, Business models\, stratégie corporate.\nÉvaluation : Voir règlement général.
-DTEND:20270206T160000Z
-LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
-DTSTART:20270206T130000Z
-SUMMARY:[EXAMEN] UE 11 - Stratégie de l'entreprise
-UID:cab4f51c-64da-4281-9ad8-69619e91ebaa@cab4.org
+UID:c53594f4-ca4b-4328-a79b-ee31234dd7cb@c535.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Salle: A1\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
@@ -687,47 +15,15 @@ DTEND:20260203T211500Z
 LOCATION:A1
 DTSTART:20260203T191500Z
 SUMMARY:UE 5 - Marketing
-UID:bf9b9de5-d71d-4cba-afe9-0feb5c84686f@bf9b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
-DTEND:20260328T110000Z
-LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
-DTSTART:20260328T080000Z
-SUMMARY:[EXAMEN] UE 5 - Marketing
-UID:185ef2fd-9fb7-4bb0-b633-688bd076037b@185e.org
+UID:44712e69-d23d-41e8-8965-07def9773a4b@4471.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Salle: 2.2
-DTEND:20261013T201500Z
+DTEND:20261027T191500Z
 LOCATION:2.2
-DTSTART:20261013T181500Z
+DTSTART:20261027T171500Z
 SUMMARY:MAE 25.208 FIS
-UID:9460fd38-fa08-406d-9375-e376fd3154b2@9460.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: Réalisé\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
-DTEND:20251216T211500Z
-LOCATION:Réalisé
-DTSTART:20251216T191500Z
-SUMMARY:UE 7 - Finance d'entreprise
-UID:1241c2b0-1d67-4964-81ec-f6ad8ebcbe6a@1241.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20260929T201500Z
-LOCATION:2.2
-DTSTART:20260929T181500Z
-SUMMARY:MAE 25.208 FIS
-UID:daf38d84-2b1e-4e33-9d83-c2fa45d80182@daf3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261103T211500Z
-LOCATION:2.2
-DTSTART:20261103T191500Z
-SUMMARY:MAE 25.208 FIS
-UID:b54630ce-ebee-4e9f-8695-615cfcb763b1@b546.org
+UID:9521f6a5-aa86-4439-b5d5-2baf2180101f@9521.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Nathalie Raulet-Croset\n----------\nObjectifs : Comportement organisationnel\, leadership\, changement.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
@@ -735,127 +31,7 @@ DTEND:20261128T160000Z
 LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
 DTSTART:20261128T130000Z
 SUMMARY:[EXAMEN] UE 10 - Organisations et comportements
-UID:95e90bc3-4373-4685-bbae-5f7363a95cea@95e9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: Réalisé\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
-DTEND:20260414T181500Z
-LOCATION:Réalisé
-DTSTART:20260414T161500Z
-SUMMARY:UE 2 - Droit des affaires
-UID:7ef7ac73-b218-4bf7-92d5-1dec266c6004@7ef7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: A4\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
-DTEND:20251014T181500Z
-LOCATION:A4
-DTSTART:20251014T161500Z
-SUMMARY:UE 1 - Environnement Économique de l'Entreprise
-UID:dcf1dcde-66d1-4175-9a92-ffe821f78225@dcf1.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: Réalisé\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
-DTEND:20251216T191500Z
-LOCATION:Réalisé
-DTSTART:20251216T171500Z
-SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
-UID:5942ce69-c741-4c5f-b538-38a425717a54@5942.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261208T191500Z
-LOCATION:2.2
-DTSTART:20261208T171500Z
-SUMMARY:MAE 25.208 FIS
-UID:358a8224-05ef-4646-83a1-23f721516f11@358a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20260922T201500Z
-LOCATION:2.2
-DTSTART:20260922T181500Z
-SUMMARY:MAE 25.208 FIS
-UID:936aa1bb-ed45-4d51-a897-caf81f89d1e4@936a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: A1\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
-DTEND:20260324T191500Z
-LOCATION:A1
-DTSTART:20260324T171500Z
-SUMMARY:UE 2 - Droit des affaires
-UID:8e1aa6ee-3f28-4dda-93fc-2d15be28c65e@8e1a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: Réalisé\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
-DTEND:20251125T191500Z
-LOCATION:Réalisé
-DTSTART:20251125T171500Z
-SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
-UID:3b22be00-727b-403a-8432-59ad149bcae1@3b22.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: En ligne\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
-DTEND:20260330T193000Z
-LOCATION:En ligne
-DTSTART:20260330T163000Z
-SUMMARY:UE 2 - Droit des affaires
-UID:26a211f7-1ac4-46d3-b846-74b8d0d22d52@26a2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D5\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
-DTEND:20250930T201500Z
-LOCATION:D5
-DTSTART:20250930T181500Z
-SUMMARY:UE 3 - Information comptable
-UID:a797f37c-de7b-4213-94a1-efa2549b4285@a797.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: A2\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
-DTEND:20260127T191500Z
-LOCATION:A2
-DTSTART:20260127T171500Z
-SUMMARY:UE 2 - Droit des affaires
-UID:9ba3b34c-939d-4aa7-99d0-d93a0a5004da@9ba3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D6\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
-DTEND:20251104T211500Z
-LOCATION:D6
-DTSTART:20251104T191500Z
-SUMMARY:UE 3 - Information comptable
-UID:e4927a74-0282-4be8-b778-d8362bd99340@e492.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: En ligne\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
-DTEND:20250918T193000Z
-LOCATION:En ligne
-DTSTART:20250918T163000Z
-SUMMARY:[OUVERTURE] UE 3 - Information comptable
-UID:45712608-3fa2-4e24-bd8f-a21b63bd8475@4571.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: A4\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
-DTEND:20251014T201500Z
-LOCATION:A4
-DTSTART:20251014T181500Z
-SUMMARY:UE 3 - Information comptable
-UID:27a8c581-5581-4516-87d9-e9ed49cd3f04@27a8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: RDJ.1\nIntervenant: Florent Noël\n----------\nObjectifs : Stratégie RH\, mobilisation des salariés\, GPEC.\nÉvaluation : Préparation cas (50%)\, Examen final (50%).
-DTEND:20260519T201500Z
-LOCATION:RDJ.1
-DTSTART:20260519T161500Z
-SUMMARY:UE 4 - Gestion des Ressources Humaines
-UID:51cd6f6f-502c-4afa-b5b2-f613c605542e@51cd.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261215T191500Z
-LOCATION:2.2
-DTSTART:20261215T171500Z
-SUMMARY:MAE 25.208 FIS
-UID:13121aa2-e24f-4307-8ca3-4c67c1c9d529@1312.org
+UID:d233e16e-9224-4aaa-8d82-5d265ef8d2e9@d233.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Pierre-Yves Lagroue\n----------\nObjectifs : Internationalisation\, éthique\, management interculturel.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
@@ -863,79 +39,15 @@ DTEND:20270522T150000Z
 LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
 DTSTART:20270522T120000Z
 SUMMARY:[EXAMEN] UE 12 - Management international
-UID:61167924-1dc5-4484-9009-41d2a0a08f52@6116.org
+UID:09b456de-bccb-407c-bd44-70f24e9999fe@09b4.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Salle: A1\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
-DTEND:20260210T211500Z
-LOCATION:A1
-DTSTART:20260210T191500Z
-SUMMARY:UE 5 - Marketing
-UID:96254a60-e534-47de-b11e-1f06aeaca458@9625.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20260929T181500Z
-LOCATION:2.2
-DTSTART:20260929T161500Z
-SUMMARY:MAE 25.208 FIS
-UID:7dbb9432-d3d6-4183-9979-38b17d92fc2a@7dbb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: A1\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
-DTEND:20251202T191500Z
-LOCATION:A1
-DTSTART:20251202T171500Z
-SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
-UID:7ceb3c6b-2c3b-44ca-ab1b-1691598b32dd@7ceb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: En ligne\nIntervenant: Nathalie Raulet-Croset\n----------\nObjectifs : Comportement organisationnel\, leadership\, changement.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
-DTEND:20260914T190000Z
-LOCATION:En ligne
-DTSTART:20260914T163000Z
-SUMMARY:[OUVERTURE] UE 10 - Organisations et comportements
-UID:f2825cd1-72ad-4b27-af88-9e6f69efab44@f282.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261110T211500Z
-LOCATION:2.2
-DTSTART:20261110T191500Z
-SUMMARY:MAE 25.208 FIS
-UID:e98fc7c8-4141-4f21-9457-9589cbf9bf5b@e98f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: En ligne\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
-DTEND:20260303T211500Z
-LOCATION:En ligne
-DTSTART:20260303T191500Z
-SUMMARY:UE 5 - Marketing
-UID:ff2269d3-41a7-4462-a09b-b239d555f4f2@ff22.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: D5\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
-DTEND:20250923T181500Z
-LOCATION:D5
-DTSTART:20250923T161500Z
-SUMMARY:UE 1 - Environnement Économique de l'Entreprise
-UID:bba93539-8c00-499a-842a-6dbd4ab352d8@bba9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261201T211500Z
-LOCATION:2.2
-DTSTART:20261201T191500Z
-SUMMARY:MAE 25.208 FIS
-UID:626508f3-ea8b-4eac-a113-b463a92e83d0@6265.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Salle: 2.2
-DTEND:20261006T201500Z
-LOCATION:2.2
-DTSTART:20261006T181500Z
-SUMMARY:MAE 25.208 FIS
-UID:c7fa537a-3023-49bc-ae9b-3874f2a6298a@c7fa.org
+DESCRIPTION:Salle: Réalisé\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
+DTEND:20260414T181500Z
+LOCATION:Réalisé
+DTSTART:20260414T161500Z
+SUMMARY:UE 2 - Droit des affaires
+UID:5468276c-8c57-448f-9791-31061959bc31@5468.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Salle: A1\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
@@ -943,7 +55,119 @@ DTEND:20260210T191500Z
 LOCATION:A1
 DTSTART:20260210T171500Z
 SUMMARY:UE 2 - Droit des affaires
-UID:9e986331-66b1-4fdf-a3f2-e672e4a8cba0@9e98.org
+UID:a4d342f8-94f0-4d6f-8f05-ef22ea45d374@a4d3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D6\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
+DTEND:20251104T211500Z
+LOCATION:D6
+DTSTART:20251104T191500Z
+SUMMARY:UE 3 - Information comptable
+UID:16fe21f5-5241-4b35-847e-9ac58307d9b3@16fe.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: En ligne\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
+DTEND:20260317T191500Z
+LOCATION:En ligne
+DTSTART:20260317T171500Z
+SUMMARY:UE 2 - Droit des affaires
+UID:f9490fd3-8f8c-4310-8ec1-b78446486b24@f949.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: En ligne\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
+DTEND:20260106T191500Z
+LOCATION:En ligne
+DTSTART:20260106T171500Z
+SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
+UID:59866a79-1132-4a2c-8be4-431acf7044fe@5986.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20260929T181500Z
+LOCATION:2.2
+DTSTART:20260929T161500Z
+SUMMARY:MAE 25.208 FIS
+UID:fe9b71a4-f941-4766-b96c-61e48144cb51@fe9b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Nathalie Raulet-Croset\n----------\nObjectifs : Comportement organisationnel\, leadership\, changement.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
+DTEND:20261128T160000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20261128T130000Z
+SUMMARY:[EXAMEN] UE 10 - Organisations et comportements
+UID:f1638874-39a0-447f-b158-0f99e3d2a55b@f163.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261201T211500Z
+LOCATION:2.2
+DTSTART:20261201T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:71e597ce-9f89-4e63-8caa-275258f56f96@71e5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: En ligne\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
+DTEND:20251113T210000Z
+LOCATION:En ligne
+DTSTART:20251113T180000Z
+SUMMARY:UE 1 - Environnement Économique de l'Entreprise
+UID:521e21d4-3e82-4e50-9710-34763aaa8336@521e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D2\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
+DTEND:20260317T211500Z
+LOCATION:D2
+DTSTART:20260317T191500Z
+SUMMARY:UE 5 - Marketing
+UID:e16180a3-45e1-452c-a561-85dc515e29d2@e161.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: En ligne\nIntervenant: Nathalie Raulet-Croset\n----------\nObjectifs : Comportement organisationnel\, leadership\, changement.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
+DTEND:20260914T190000Z
+LOCATION:En ligne
+DTSTART:20260914T163000Z
+SUMMARY:[OUVERTURE] UE 10 - Organisations et comportements
+UID:9fc2b12c-544c-418f-9181-eff2af39d6dc@9fc2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20270105T211500Z
+LOCATION:2.2
+DTSTART:20270105T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:8ffd555e-e971-4c8a-8fee-7e5accdca42d@8ffd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: En ligne\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
+DTEND:20251103T203000Z
+LOCATION:En ligne
+DTSTART:20251103T173000Z
+SUMMARY:UE 3 - Information comptable
+UID:a043cd45-873d-412b-946e-aa2785cbffef@a043.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D5
+DTEND:20250916T181500Z
+LOCATION:D5
+DTSTART:20250916T161500Z
+SUMMARY:MAE 25.208 FIS
+UID:6b5c8192-6443-4635-ab8a-78171c9dbd4d@6b5c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D5\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
+DTEND:20250930T201500Z
+LOCATION:D5
+DTSTART:20250930T181500Z
+SUMMARY:UE 3 - Information comptable
+UID:c1498c86-d6c0-4409-94d1-6b0519ff2830@c149.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20270112T211500Z
+LOCATION:2.2
+DTSTART:20270112T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:cceb984d-558e-4dbe-95f9-c0f417a643a5@cceb.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Salle: En ligne\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
@@ -951,6 +175,782 @@ DTEND:20260106T211500Z
 LOCATION:En ligne
 DTSTART:20260106T191500Z
 SUMMARY:UE 7 - Finance d'entreprise
-UID:a839e544-9869-4860-9236-3fd55fc0a276@a839.org
+UID:07d8239e-e2b8-4c6a-aaf0-95e23d7d83e5@07d8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: En ligne\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
+DTEND:20251110T191500Z
+LOCATION:En ligne
+DTSTART:20251110T171500Z
+SUMMARY:UE 1 - Environnement Économique de l'Entreprise
+UID:8acbc48a-f5c3-44cd-88b6-23c2dd14aee0@8acb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D5\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
+DTEND:20260224T211500Z
+LOCATION:D5
+DTSTART:20260224T191500Z
+SUMMARY:UE 5 - Marketing
+UID:94f9ee8b-7dcc-4874-a4d2-e7b049c69528@94f9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: A1\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
+DTEND:20260324T191500Z
+LOCATION:A1
+DTSTART:20260324T171500Z
+SUMMARY:UE 2 - Droit des affaires
+UID:ffbd56f6-08a9-413e-b0a6-387abe2b35f9@ffbd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20260922T181500Z
+LOCATION:2.2
+DTSTART:20260922T161500Z
+SUMMARY:MAE 25.208 FIS
+UID:23984f1b-6e29-458b-9f66-8379ab56d338@2398.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: En ligne\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
+DTEND:20260319T203000Z
+LOCATION:En ligne
+DTSTART:20260319T173000Z
+SUMMARY:UE 5 - Marketing
+UID:55712c92-0835-402e-b4ce-fe2a26e2c281@5571.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: Réalisé\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
+DTEND:20260120T211500Z
+LOCATION:Réalisé
+DTSTART:20260120T191500Z
+SUMMARY:UE 7 - Finance d'entreprise
+UID:4f8274de-a1d7-4d92-9cc7-d6f851718329@4f82.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: En ligne\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
+DTEND:20250915T193000Z
+LOCATION:En ligne
+DTSTART:20250915T163000Z
+SUMMARY:[OUVERTURE] UE 1 - Environnement Économique de l'Entreprise
+UID:f7553781-a3e3-4762-bdf6-6babe011b93e@f755.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D5\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
+DTEND:20250930T181500Z
+LOCATION:D5
+DTSTART:20250930T161500Z
+SUMMARY:UE 1 - Environnement Économique de l'Entreprise
+UID:b6cf365c-6c21-49c8-b018-3152d55fcc7e@b6cf.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20270119T191500Z
+LOCATION:2.2
+DTSTART:20270119T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:2059c516-7503-40fb-824b-aa7bba10b933@2059.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: En ligne\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
+DTEND:20260115T210000Z
+LOCATION:En ligne
+DTSTART:20260115T180000Z
+SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
+UID:1d7cec59-ca32-4efc-8bd9-1a4078dfc43a@1d7c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D5\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
+DTEND:20251028T191500Z
+LOCATION:D5
+DTSTART:20251028T171500Z
+SUMMARY:UE 1 - Environnement Économique de l'Entreprise
+UID:6e256ef5-a40a-41ec-9573-03e0b778fdfe@6e25.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261110T211500Z
+LOCATION:2.2
+DTSTART:20261110T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:cb03cdaa-9a36-42d2-bb5a-b40dd76f7779@cb03.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D5\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
+DTEND:20251007T181500Z
+LOCATION:D5
+DTSTART:20251007T161500Z
+SUMMARY:UE 1 - Environnement Économique de l'Entreprise
+UID:c4dfc75f-7345-4ed7-81b4-d55321dda817@c4df.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: Réalisé\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
+DTEND:20260120T191500Z
+LOCATION:Réalisé
+DTSTART:20260120T171500Z
+SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
+UID:868a5662-3586-4870-9f75-d59e7491d921@868a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: A1\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
+DTEND:20260210T211500Z
+LOCATION:A1
+DTSTART:20260210T191500Z
+SUMMARY:UE 5 - Marketing
+UID:243eaef0-4374-4564-87e2-033f123f5a5a@243e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
+DTEND:20260131T110000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20260131T080000Z
+SUMMARY:[EXAMEN] UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
+UID:34dd270b-51a0-4c58-b0a4-ab1716f9c619@34dd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D5\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
+DTEND:20250923T201500Z
+LOCATION:D5
+DTSTART:20250923T181500Z
+SUMMARY:UE 3 - Information comptable
+UID:a1abd645-fda0-469c-97a7-cf8dffa9b21e@a1ab.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
+DTEND:20260131T160000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20260131T130000Z
+SUMMARY:[EXAMEN] UE 7 - Finance d'entreprise
+UID:9248cfcf-2661-419b-94b0-c8fdd95be8df@9248.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D5\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
+DTEND:20251021T181500Z
+LOCATION:D5
+DTSTART:20251021T161500Z
+SUMMARY:UE 1 - Environnement Économique de l'Entreprise
+UID:5515849a-cca9-4783-8c90-ee8614280dbe@5515.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: Réalisé\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
+DTEND:20260331T181500Z
+LOCATION:Réalisé
+DTSTART:20260331T161500Z
+SUMMARY:UE 2 - Droit des affaires
+UID:c7f76140-7756-4e0b-ba0d-31a3ba6b56a6@c7f7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: En ligne\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
+DTEND:20251110T211500Z
+LOCATION:En ligne
+DTSTART:20251110T191500Z
+SUMMARY:UE 3 - Information comptable
+UID:e6557b6a-3e32-41f4-9516-f565e9a213e3@e655.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: En ligne\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
+DTEND:20260108T203000Z
+LOCATION:En ligne
+DTSTART:20260108T173000Z
+SUMMARY:[OUVERTURE] UE 5 - Marketing
+UID:fef18558-5e00-4321-a33d-ca8900004050@fef1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: En ligne\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
+DTEND:20260126T203000Z
+LOCATION:En ligne
+DTSTART:20260126T173000Z
+SUMMARY:UE 7 - Finance d'entreprise
+UID:4ae865ac-95d5-456e-88ca-2636aea6be80@4ae8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261208T191500Z
+LOCATION:2.2
+DTSTART:20261208T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:3d244737-2e44-4607-b37d-91d571a31e77@3d24.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D5\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
+DTEND:20260303T191500Z
+LOCATION:D5
+DTSTART:20260303T171500Z
+SUMMARY:UE 2 - Droit des affaires
+UID:d0e1d8f6-afa3-4279-ac35-5386106e33ef@d0e1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261124T211500Z
+LOCATION:2.2
+DTSTART:20261124T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:5c03d784-0b94-416f-8e1e-bdec306742b0@5c03.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20270112T191500Z
+LOCATION:2.2
+DTSTART:20270112T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:eda78999-6524-4ee5-8dcc-f5e62ecc6708@eda7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: Réalisé\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
+DTEND:20251216T211500Z
+LOCATION:Réalisé
+DTSTART:20251216T191500Z
+SUMMARY:UE 7 - Finance d'entreprise
+UID:aefa73a5-7caf-4704-8d68-0db4a46275b7@aefa.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: Réalisé\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
+DTEND:20251216T191500Z
+LOCATION:Réalisé
+DTSTART:20251216T171500Z
+SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
+UID:b19543e5-e4d0-4c6b-ad44-734fd5a4a89b@b195.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261006T201500Z
+LOCATION:2.2
+DTSTART:20261006T181500Z
+SUMMARY:MAE 25.208 FIS
+UID:04362b00-34a8-40de-a9c1-d03a826e3952@0436.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: En ligne\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
+DTEND:20260119T203000Z
+LOCATION:En ligne
+DTSTART:20260119T173000Z
+SUMMARY:[OUVERTURE] UE 2 - Droit des affaires
+UID:0a0bf71a-ee03-4fca-bf93-0f73a50f67a7@0a0b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261103T211500Z
+LOCATION:2.2
+DTSTART:20261103T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:c79dad12-5cbb-4146-ac7c-83b66fc8ca3a@c79d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: RDJ.1\nIntervenant: Florent Noël\n----------\nObjectifs : Stratégie RH\, mobilisation des salariés\, GPEC.\nÉvaluation : Préparation cas (50%)\, Examen final (50%).
+DTEND:20260512T201500Z
+LOCATION:RDJ.1
+DTSTART:20260512T161500Z
+SUMMARY:UE 4 - Gestion des Ressources Humaines
+UID:59f7655f-f160-4bd0-834f-508dcbf3a2c7@59f7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: RDJ.1\nIntervenant: Florent Noël\n----------\nObjectifs : Stratégie RH\, mobilisation des salariés\, GPEC.\nÉvaluation : Préparation cas (50%)\, Examen final (50%).
+DTEND:20260526T201500Z
+LOCATION:RDJ.1
+DTSTART:20260526T161500Z
+SUMMARY:UE 4 - Gestion des Ressources Humaines
+UID:6f669107-1b9d-4b3e-ad2d-30d85fc1c2f3@6f66.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261110T191500Z
+LOCATION:2.2
+DTSTART:20261110T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:32ec5ae6-70ed-4480-bd08-0ab132ef1393@32ec.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: En ligne\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
+DTEND:20260303T211500Z
+LOCATION:En ligne
+DTSTART:20260303T191500Z
+SUMMARY:UE 5 - Marketing
+UID:48df49d4-8f2a-4aab-b055-bce0e69272c4@48df.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261215T211500Z
+LOCATION:2.2
+DTSTART:20261215T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:0acb4d2c-faf4-4684-a230-7c229a297ced@0acb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20270119T211500Z
+LOCATION:2.2
+DTSTART:20270119T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:95a71ec5-c479-444e-b2bd-9166b690638a@95a7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Olivier de La Villarmois\n----------\nObjectifs : Coûts complets\, CVP\, budgets\, tableaux de bord.\nÉvaluation : Présentation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
+DTEND:20261128T110000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20261128T080000Z
+SUMMARY:[EXAMEN] UE 9 - Contrôle de gestion
+UID:21505fa0-7fb1-4f56-b9b4-940abdbb7397@2150.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: Réalisé\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
+DTEND:20260407T181500Z
+LOCATION:Réalisé
+DTSTART:20260407T161500Z
+SUMMARY:UE 2 - Droit des affaires
+UID:494ffba4-3c91-4b81-90b4-dbe1c61ae541@494f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: A4\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
+DTEND:20251014T201500Z
+LOCATION:A4
+DTSTART:20251014T181500Z
+SUMMARY:UE 3 - Information comptable
+UID:8196f7a1-abde-4cb5-a78e-49caf9941581@8196.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: En ligne\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
+DTEND:20251124T210000Z
+LOCATION:En ligne
+DTSTART:20251124T180000Z
+SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
+UID:45934813-d3aa-4473-a44c-9f2080fbe5ac@4593.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D6\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
+DTEND:20251104T191500Z
+LOCATION:D6
+DTSTART:20251104T171500Z
+SUMMARY:UE 1 - Environnement Économique de l'Entreprise
+UID:a71893c6-3a9e-4ae2-850d-1649cff07be1@a718.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261020T201500Z
+LOCATION:2.2
+DTSTART:20261020T181500Z
+SUMMARY:MAE 25.208 FIS
+UID:5cb266be-e8aa-4a7a-bfdc-dc478e172961@5cb2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20260922T201500Z
+LOCATION:2.2
+DTSTART:20260922T181500Z
+SUMMARY:MAE 25.208 FIS
+UID:7007f448-6b59-4bb2-a72e-b6d63d986a65@7007.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261027T211500Z
+LOCATION:2.2
+DTSTART:20261027T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:ec8a1753-a1eb-42ac-9748-2b3381a13116@ec8a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: A1\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
+DTEND:20251202T191500Z
+LOCATION:A1
+DTSTART:20251202T171500Z
+SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
+UID:bff8884b-25ac-4c71-ade4-7ef421cfec22@bff8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: En ligne\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
+DTEND:20250918T193000Z
+LOCATION:En ligne
+DTSTART:20250918T163000Z
+SUMMARY:[OUVERTURE] UE 3 - Information comptable
+UID:e52943c7-ca26-4c1c-8ea8-730f70b98fd4@e529.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D3
+DTEND:20260127T211500Z
+LOCATION:D3
+DTSTART:20260127T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:52f9fdbc-0394-4f02-82d8-d28ccf3a8ca2@52f9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20260929T201500Z
+LOCATION:2.2
+DTSTART:20260929T181500Z
+SUMMARY:MAE 25.208 FIS
+UID:88162a82-7159-4f2a-adf0-33b251a051ac@8816.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261006T181500Z
+LOCATION:2.2
+DTSTART:20261006T161500Z
+SUMMARY:MAE 25.208 FIS
+UID:8c7beeb8-81a9-4dae-ae31-bfbaba875ada@8c7b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: A2\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
+DTEND:20260127T191500Z
+LOCATION:A2
+DTSTART:20260127T171500Z
+SUMMARY:UE 2 - Droit des affaires
+UID:0b1e17bf-fbfc-4c54-bcb1-9bded4275eef@0b1e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Philippe Eynaud & Jean-Loup Richet\n----------\nObjectifs : Gouvernance\, urbanisation\, alignement stratégique des SI.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
+DTEND:20270206T110000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20270206T080000Z
+SUMMARY:[EXAMEN] UE 8 - Management des systèmes d'information
+UID:5938f12a-3d51-4127-9800-33be0dff54b7@5938.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: Réalisé\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
+DTEND:20251118T211500Z
+LOCATION:Réalisé
+DTSTART:20251118T191500Z
+SUMMARY:UE 7 - Finance d'entreprise
+UID:95869ce4-156d-495e-8d3c-611a7b061318@9586.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: A1\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
+DTEND:20260310T191500Z
+LOCATION:A1
+DTSTART:20260310T171500Z
+SUMMARY:UE 2 - Droit des affaires
+UID:dadc7c3a-4f9e-4e77-bc3a-c7a088aec343@dadc.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261020T181500Z
+LOCATION:2.2
+DTSTART:20261020T161500Z
+SUMMARY:MAE 25.208 FIS
+UID:6b200e5e-eed8-4e0f-bb21-1c0e55f5789d@6b20.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20270126T191500Z
+LOCATION:2.2
+DTSTART:20270126T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:0d084d4f-871e-4d76-a2ce-74e8d42eb8c2@0d08.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Didier Chabaud & Pierre Garaudel\n----------\nObjectifs : Analyse concurrentielle\, Business models\, stratégie corporate.\nÉvaluation : Voir règlement général.
+DTEND:20270206T160000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20270206T130000Z
+SUMMARY:[EXAMEN] UE 11 - Stratégie de l'entreprise
+UID:e32cd2c7-b420-4b4c-949d-7f0a54b2f086@e32c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261124T191500Z
+LOCATION:2.2
+DTSTART:20261124T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:a847f884-06a5-4ab6-92a2-00164b36f4e4@a847.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: RDJ.1\nIntervenant: Florent Noël\n----------\nObjectifs : Stratégie RH\, mobilisation des salariés\, GPEC.\nÉvaluation : Préparation cas (50%)\, Examen final (50%).
+DTEND:20260519T201500Z
+LOCATION:RDJ.1
+DTSTART:20260519T161500Z
+SUMMARY:UE 4 - Gestion des Ressources Humaines
+UID:4df75e1c-5d44-4ed0-a49e-1484129770cc@4df7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261208T211500Z
+LOCATION:2.2
+DTSTART:20261208T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:84a2905b-a583-4fe3-8490-ee5b6b5e2160@84a2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D5\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
+DTEND:20251007T201500Z
+LOCATION:D5
+DTSTART:20251007T181500Z
+SUMMARY:UE 3 - Information comptable
+UID:444e0498-746e-4a4f-9f05-daa646927d6a@444e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: En ligne\nIntervenant: Florent Noël\n----------\nObjectifs : Stratégie RH\, mobilisation des salariés\, GPEC.\nÉvaluation : Préparation cas (50%)\, Examen final (50%).
+DTEND:20260601T193000Z
+LOCATION:En ligne
+DTSTART:20260601T163000Z
+SUMMARY:UE 4 - Gestion des Ressources Humaines
+UID:f31d26e6-713d-415b-9d2c-1aa143648724@f31d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Florent Noël\n----------\nObjectifs : Stratégie RH\, mobilisation des salariés\, GPEC.\nÉvaluation : Préparation cas (50%)\, Examen final (50%).
+DTEND:20260606T100000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20260606T070000Z
+SUMMARY:[EXAMEN] UE 4 - Gestion des Ressources Humaines
+UID:008a47b9-e191-47d6-8c14-e26f7a6b597d@008a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: Réalisé\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
+DTEND:20260113T211500Z
+LOCATION:Réalisé
+DTSTART:20260113T191500Z
+SUMMARY:UE 7 - Finance d'entreprise
+UID:6a7a5080-b5d1-467b-85ca-5467d5528296@6a7a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261013T181500Z
+LOCATION:2.2
+DTSTART:20261013T161500Z
+SUMMARY:MAE 25.208 FIS
+UID:0b9d42fd-ddf8-40bc-a026-196fd9ebea9d@0b9d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: AMPHITHEATRE
+DTEND:20260701T180000Z
+LOCATION:AMPHITHEATRE
+DTSTART:20260701T160000Z
+SUMMARY:MAE 25.208 FIS
+UID:74822dc2-9757-4e4a-b5fc-feae2f533ae2@7482.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: En ligne\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
+DTEND:20251117T203000Z
+LOCATION:En ligne
+DTSTART:20251117T173000Z
+SUMMARY:[OUVERTURE] UE 7 - Finance d'entreprise
+UID:fa7e8c1c-f396-41e3-b2b4-fb5de1648847@fa7e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261013T201500Z
+LOCATION:2.2
+DTSTART:20261013T181500Z
+SUMMARY:MAE 25.208 FIS
+UID:ad4898a3-1e93-4692-b33f-d4c24c634823@ad48.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: A1\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
+DTEND:20260217T211500Z
+LOCATION:A1
+DTSTART:20260217T191500Z
+SUMMARY:UE 5 - Marketing
+UID:17f5a92a-3206-4cb0-9a50-bc4d4752e06b@17f5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261201T191500Z
+LOCATION:2.2
+DTSTART:20261201T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:a82e2611-9168-45d4-b221-2732e01ef1b0@a82e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
+DTEND:20251122T160000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20251122T130000Z
+SUMMARY:[EXAMEN] UE 3 - Information comptable
+UID:633b3375-17dc-4be5-9a2c-3b9aa6934814@633b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: A1\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
+DTEND:20260217T191500Z
+LOCATION:A1
+DTSTART:20260217T171500Z
+SUMMARY:UE 2 - Droit des affaires
+UID:885063b0-23ab-4673-a441-16e0c0f1189e@8850.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
+DTEND:20260328T110000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20260328T080000Z
+SUMMARY:[EXAMEN] UE 5 - Marketing
+UID:671df1d7-6879-4fa1-8f00-17bf242fd3ea@671d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20270126T211500Z
+LOCATION:2.2
+DTSTART:20270126T191500Z
+SUMMARY:MAE 25.208 FIS
+UID:e8485d28-0a09-4b5f-8bdd-6665d0d4f927@e848.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261103T191500Z
+LOCATION:2.2
+DTSTART:20261103T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:47420650-d08c-4e4b-a4eb-9b43b6fb1b23@4742.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: En ligne\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
+DTEND:20260105T203000Z
+LOCATION:En ligne
+DTSTART:20260105T173000Z
+SUMMARY:UE 7 - Finance d'entreprise
+UID:91e7dbe8-c884-4b04-bd47-8986d2c53a3d@91e7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: Réalisé\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
+DTEND:20260113T191500Z
+LOCATION:Réalisé
+DTSTART:20260113T171500Z
+SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
+UID:0f576783-1e3d-4edc-93f9-6cc11788074c@0f57.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D5\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
+DTEND:20250923T181500Z
+LOCATION:D5
+DTSTART:20250923T161500Z
+SUMMARY:UE 1 - Environnement Économique de l'Entreprise
+UID:5e2500fa-2666-4f53-b7f8-aaf74cc05305@5e25.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D5\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
+DTEND:20260224T191500Z
+LOCATION:D5
+DTSTART:20260224T171500Z
+SUMMARY:UE 2 - Droit des affaires
+UID:f018fe29-516a-4cd3-8984-2869bd026c17@f018.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20270105T191500Z
+LOCATION:2.2
+DTSTART:20270105T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:f6c4f4c5-1dbf-4e50-b00d-8237db4f386f@f6c4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: A1\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
+DTEND:20251202T211500Z
+LOCATION:A1
+DTSTART:20251202T191500Z
+SUMMARY:UE 7 - Finance d'entreprise
+UID:dbc1a536-bfd9-4ad0-91f8-8e75df233600@dbc1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: Réalisé\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
+DTEND:20251209T211500Z
+LOCATION:Réalisé
+DTSTART:20251209T191500Z
+SUMMARY:UE 7 - Finance d'entreprise
+UID:7544a907-4cdd-494c-a23d-2f6cefca3887@7544.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: A4\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
+DTEND:20251014T181500Z
+LOCATION:A4
+DTSTART:20251014T161500Z
+SUMMARY:UE 1 - Environnement Économique de l'Entreprise
+UID:207f3038-3138-4c89-8064-9a0bcd809fee@207f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: Réalisé\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
+DTEND:20251125T191500Z
+LOCATION:Réalisé
+DTSTART:20251125T171500Z
+SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
+UID:3dd2c3bd-fa26-45ec-9ba7-bedd49f2b0a7@3dd2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: Réalisé\nIntervenant: Jérôme Caby\n----------\nObjectifs : Analyse financière\, rentabilité\, solvabilité\, diagnostic.\nÉvaluation : Contrôle continu (50%)\, Examen (50%).
+DTEND:20251125T211500Z
+LOCATION:Réalisé
+DTSTART:20251125T191500Z
+SUMMARY:UE 7 - Finance d'entreprise
+UID:89bc2a04-fecb-49cd-b050-bdfd12cfe2f9@89bc.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: Réalisé\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
+DTEND:20251118T191500Z
+LOCATION:Réalisé
+DTSTART:20251118T171500Z
+SUMMARY:[OUVERTURE] UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
+UID:fe17495d-f153-4a49-a450-f3419198892f@fe17.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: A1\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
+DTEND:20260203T191500Z
+LOCATION:A1
+DTSTART:20260203T171500Z
+SUMMARY:UE 2 - Droit des affaires
+UID:ed77a534-2ecd-4742-aa60-1e53a3e96392@ed77.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: En ligne\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
+DTEND:20260330T193000Z
+LOCATION:En ligne
+DTSTART:20260330T163000Z
+SUMMARY:UE 2 - Droit des affaires
+UID:8e32d258-ac6f-4235-b14b-bbbec2018a96@8e32.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:ℹ️ Probable Amphi d'ouverture / Première séance\nSalle: En ligne\nIntervenant: Florent Noël\n----------\nObjectifs : Stratégie RH\, mobilisation des salariés\, GPEC.\nÉvaluation : Préparation cas (50%)\, Examen final (50%).
+DTEND:20260409T193000Z
+LOCATION:En ligne
+DTSTART:20260409T163000Z
+SUMMARY:[OUVERTURE] UE 4 - Gestion des Ressources Humaines
+UID:e2fa3361-b10f-453f-aab8-61028ff6dbc5@e2fa.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: 2.2
+DTEND:20261215T191500Z
+LOCATION:2.2
+DTSTART:20261215T171500Z
+SUMMARY:MAE 25.208 FIS
+UID:bd684886-7eea-48e9-b864-25325a841006@bd68.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Marianne Dournaux\n----------\nObjectifs : Droit des contrats\, responsabilité civile\, droit des sociétés\, droit du travail.\nÉvaluation : Contrôle continu (50%)\, Contrôle terminal (50%).
+DTEND:20260425T100000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20260425T070000Z
+SUMMARY:[EXAMEN] UE 2 - Droit des affaires
+UID:9740a853-fb6a-44ef-beb8-9d0231eb7bc3@9740.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: A1\nIntervenant: Jean-Luc Brunstein & Ouidade Sabri\n----------\nObjectifs : Comportement consommateur\, mix marketing\, stratégie.\nÉvaluation : Contrôle continu (50%)\, Examen final (50%).
+DTEND:20260310T211500Z
+LOCATION:A1
+DTSTART:20260310T191500Z
+SUMMARY:UE 5 - Marketing
+UID:5fb53c51-34f2-4776-b1a9-3f5baf0a33c6@5fb5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:⚠️ EXAMEN FINAL\nSalle: Maison des Examens (Arcueil)\nIntervenant: Stéphane Saussier\n----------\nObjectifs : Rôle de l'entreprise\, création de richesse\, macro/microéconomie.\nÉvaluation : Animation cas (25%)\, Contrôle mi-parcours (25%)\, Examen (50%).
+DTEND:20251122T110000Z
+LOCATION:Maison des Examens\, 7 Rue Ernest Renan\, 94110 Arcueil
+DTSTART:20251122T080000Z
+SUMMARY:[EXAMEN] UE 1 - Environnement Économique de l'Entreprise
+UID:f0305eb5-9abf-4f50-8695-4b7a51195ffe@f030.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: RDJ.1\nIntervenant: Florent Noël\n----------\nObjectifs : Stratégie RH\, mobilisation des salariés\, GPEC.\nÉvaluation : Préparation cas (50%)\, Examen final (50%).
+DTEND:20260505T201500Z
+LOCATION:RDJ.1
+DTSTART:20260505T161500Z
+SUMMARY:UE 4 - Gestion des Ressources Humaines
+UID:a0fcc36d-cca3-40ef-86de-130d73e6233b@a0fc.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: D5\nIntervenant: Stéphane Bellanger\n----------\nObjectifs : Modèle comptable IFRS\, bilan\, compte de résultat\, tableaux de flux.\nÉvaluation : Exposés/Participation (25%)\, Contrôle mi-parcours (25%)\, Examen études de cas (50%).
+DTEND:20251021T201500Z
+LOCATION:D5
+DTSTART:20251021T181500Z
+SUMMARY:UE 3 - Information comptable
+UID:da269d39-9c5c-410a-949c-3c453fd50eac@da26.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Salle: Réalisé\nIntervenant: Christine Triomphe\n----------\nObjectifs : Supply Chain Management\, gestion de projet\, innovation frugale\, design thinking.\nÉvaluation : Contrôle Continu (50%)\, Examen final (50%).
+DTEND:20251209T191500Z
+LOCATION:Réalisé
+DTSTART:20251209T171500Z
+SUMMARY:UE 6 - De l'idée au Marché (Projets\, Innovation & Supply Chain)
+UID:a1546d14-5197-47e1-bd6c-140e0ddb8878@a154.org
 END:VEVENT
 END:VCALENDAR
